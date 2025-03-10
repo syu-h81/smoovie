@@ -29,7 +29,7 @@
           integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
           crossorigin="anonymous">
   </script>
-</head>
+<script defer src="assets/js/main.js"></script><link href="assets/css/style.css" rel="stylesheet"></head>
 <body>
   <div class="wrapper">
     <!--======== header ========-->
