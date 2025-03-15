@@ -28,6 +28,7 @@
       }
     }
     &__movies {
+      width: 100%;
       position: absolute;
       top: 0;
       right: 0;
@@ -37,7 +38,7 @@
       align-items: center;
       justify-content: center;
       gap: 40px;
-      padding-top: 400px;
+      padding-top: 30vw;
     }
     &__card {
       height: 120px;

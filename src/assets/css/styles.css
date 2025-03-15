@@ -499,6 +499,7 @@ img {
   z-index: 1;
 }
 .p-top__movies {
+  width: 100%;
   position: absolute;
   top: 0;
   right: 0;
@@ -508,7 +509,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 40px;
-  padding-top: 400px;
+  padding-top: 30vw;
 }
 .p-top__card {
   height: 120px;
