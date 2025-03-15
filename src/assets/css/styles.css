@@ -399,12 +399,14 @@ img {
   padding: 0 40px;
   padding-top: 40px;
   gap: 40px;
-  position: relative;
-  z-index: 10;
 }
 .l-header__logo {
   background-color: #F0F7FB;
   position: absolute;
+}
+.l-header__nav {
+  position: relative;
+  z-index: 10;
 }
 .l-header__nav__list {
   display: flex;
