@@ -1,1 +1,52 @@
 @use "../global" as g;
+
+.l-header {
+  &__container {
+    background-color: g.$color-bg;
+    padding: 0 40px;
+    padding-top: 40px;
+    gap: 40px;
+    position: relative;
+    z-index: 10;
+  }
+  &__logo {
+    background-color: g.$color-bg;
+    position: absolute;
+  }
+  &__nav {
+    &__list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+    }
+    &__link {
+      width: 7vw;
+      max-width: 110px;
+      max-height: 110px;
+      background-color: #fff;
+      border: 1px solid g.$color-primary;
+      border-radius: 3px;
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,.5),inset -5px -5px 0px -2px #1d3c99;
+      padding: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__item {
+      &__logo {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        height: 45px;
+        margin: 0 auto;
+      }
+      &__text {
+        font-size: clamp(0.438rem, 0.055rem + 0.798vw, 0.813rem);
+        font-weight: bold;
+        padding-top: 12px;
+        text-align: center;
+      }
+    }
+  }
+}

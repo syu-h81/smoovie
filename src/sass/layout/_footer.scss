@@ -1,1 +1,37 @@
 @use "../global" as g;
+
+.l-footer {
+  &__container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    &__text {
+      font-weight: bold;
+    }
+    &__body {
+      border: 2px solid #000;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      &__number {
+        border-bottom: 1.5px solid #000;
+        padding-bottom: 4px;
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
+      &__text {
+        padding-top: 4px;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
