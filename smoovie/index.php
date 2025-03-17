@@ -19,11 +19,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
-
-  <!-- Import CSS 
+  <!-- Import CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-  <link rel="stylesheet" href="assets/css/style.css">-->
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <!-- Import JS/jQuery Library -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
           integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -178,7 +176,7 @@
             <span>Smoovie！</span>
           </div>
           <!-- === swiperの実装　=== -->
-          <div class="p-top__swiper swiper">
+          <div class="p-top__swiper swiper infinite-slider">
             <!-- 必要に応じたwrapper -->
             <div class="p-top__swiper__wrapper swiper-wrapper">
               <!-- スライド -->
@@ -203,6 +201,30 @@
               <div class="p-top__swiper__slide swiper-slide">
                 <p><span class="u-color-primary u-font-bold">シリーズ</span>で<br>複数制作したいけど<br><span class="u-color-primary u-font-bold">割引</span>できる？</p>
               </div>
+              <div class="p-top__swiper__slide swiper-slide">
+                <p>できるだけ<br><span class="u-color-primary u-font-bold">安く、パパッと</span><br>つくってほしい！</p>
+              </div>
+              <div class="p-top__swiper__slide swiper-slide">
+                <p>フリーランスは<br>安いけど、<span class="u-color-primary u-font-bold">安心</span>できる<br>企業に依頼したい</p>
+              </div>
+              <div class="p-top__swiper__slide swiper-slide">
+                <p>映像はあるから<br><span class="u-color-primary u-font-bold">字幕</span>と<span class="u-color-primary u-font-bold">編集</span>だけ<br>やってほしい</p>
+              </div>
+              <div class="p-top__swiper__slide swiper-slide">
+                <p>イメージがないから<br><span class="u-color-primary u-font-bold">参考動画</span>をもとに<br>検討したい</p>
+              </div>
+              <div class="p-top__swiper__slide swiper-slide">
+                <p>忙しいので<br>企画・構成も含めて<br><span class="u-color-primary u-font-bold">丸投げ</span>したい</p>
+              </div>
+              <div class="p-top__swiper__slide swiper-slide">
+                <p>簡易でいいから<br><span class="u-color-primary u-font-bold">商品撮影</span>して<br>ほしい</p>
+              </div>
+              <div class="p-top__swiper__slide swiper-slide">
+                <p><span class="u-color-primary u-font-bold">シリーズ</span>で<br>複数制作したいけど<br><span class="u-color-primary u-font-bold">割引</span>できる？</p>
+              </div>
+              <div class="p-top__swiper__slide swiper-slide">
+                <p>できるだけ<br><span class="u-color-primary u-font-bold">安く、パパッと</span><br>つくってほしい！</p>
+              </div>
             </div>
           </div>
         </div>
@@ -225,11 +247,13 @@
                 <h3 class="p-service__box__heading"><span class="u-color-primary-2">シンプル</span>で<span class="u-color-primary-2">お手頃</span>な料金メニュー！</h3>
               </div>
               <div class="p-service__box__body">
-                <div class="p-service__box__body__text">
-                  <p>最安6万円から！動画の制作タイプと納品尺（秒／分）で<br>選べるからわかりやすい！<br><span>※各種条件／オプション料金があります。</span></p>
-                </div>
-                <div class="p-service__box__body__img">
-                  <img src="assets/images/service_img_01.png" alt="">
+                <div class="p-service__box__body__flex">
+                  <div class="p-service__box__body__text">
+                    <p>最安6万円から！動画の制作タイプと納品尺（秒／分）で<br>選べるからわかりやすい！<br><span>※各種条件／オプション料金があります。</span></p>
+                  </div>
+                  <div class="p-service__box__body__img">
+                    <img src="assets/images/service_img_01.png" alt="">
+                  </div>
                 </div>
               </div>
             </div>
@@ -239,11 +263,13 @@
                 <h3 class="p-service__box__heading">豊富な<span class="u-color-primary-2">サンプル動画</span>から制作イメージを探せる！</h3>
               </div>
               <div class="p-service__box__body">
-                <div class="p-service__box__body__text">
-                  <p>制作のタイプ別にサンプル動画を豊富にご用意！<br>料金目安もわかりやすく、制作イメージを共有しやすい！</p>
-                </div>
-                <div class="p-service__box__body__img">
-                  <img src="assets/images/service_img_02.png" alt="">
+                <div class="p-service__box__body__flex">
+                  <div class="p-service__box__body__text">
+                    <p>制作のタイプ別にサンプル動画を豊富にご用意！<br>料金目安もわかりやすく、制作イメージを共有しやすい！</p>
+                  </div>
+                  <div class="p-service__box__body__img">
+                    <img src="assets/images/service_img_02.png" alt="">
+                  </div>
                 </div>
               </div>
             </div>
@@ -253,11 +279,13 @@
                 <h3 class="p-service__box__heading">プロの<span class="u-color-primary-2">ナレーター１名</span>を<span class="u-color-primary-2">無料</span>で起用できる！</h3>
               </div>
               <div class="p-service__box__body">
-                <div class="p-service__box__body__text">
-                  <p>40数名の豊富なナレーターから１名を無料で起用できる！<br>しかも、期限なしの買取で！<br>※２人目以降は、10,000円/１名の追加料金で起用できます。</p>
-                </div>
-                <div class="p-service__box__body__img">
-                  <img src="assets/images/service_img_03.png" alt="">
+                <div class="p-service__box__body__flex">
+                  <div class="p-service__box__body__text">
+                    <p>40数名の豊富なナレーターから１名を無料で起用できる！<br>しかも、期限なしの買取で！<br>※２人目以降は、10,000円/１名の追加料金で起用できます。</p>
+                  </div>
+                  <div class="p-service__box__body__img">
+                    <img src="assets/images/service_img_03.png" alt="">
+                  </div>
                 </div>
               </div>
             </div>
@@ -267,11 +295,13 @@
                 <h3 class="p-service__box__heading">納品スケジュールも<span class="u-color-primary-2">スピーディ</span>！</h3>
               </div>
               <div class="p-service__box__body">
-                <div class="p-service__box__body__text">
-                  <p>数分の短い動画なら編集の１次提出は１-２週間程度。<br>納品まで最短で２週間程度の場合も！<br>※短納期での対応が必要の際は、一度ご相談ください。<br>※制作内容によってはお時間をいただく場合がございます</p>
-                </div>
-                <div class="p-service__box__body__img">
-                  <img src="assets/images/service_img_04.png" alt="">
+                <div class="p-service__box__body__flex">
+                  <div class="p-service__box__body__text">
+                    <p>数分の短い動画なら編集の１次提出は１-２週間程度。<br>納品まで最短で２週間程度の場合も！<br>※短納期での対応が必要の際は、一度ご相談ください。<br>※制作内容によってはお時間をいただく場合がございます</p>
+                  </div>
+                  <div class="p-service__box__body__img">
+                    <img src="assets/images/service_img_04.png" alt="">
+                  </div>
                 </div>
               </div>
             </div>
@@ -281,11 +311,13 @@
                 <h3 class="p-service__box__heading">経験豊富なクリエイターによる安心のスタッフ体制！</h3>
               </div>
               <div class="p-service__box__body">
-                <div class="p-service__box__body__text">
-                  <p>クリエイティブディレクター、動画エディターやデザイナーなど、<br>豊富な経験とスキルを持つスタッフ体制で安心して任せられます。</p>
-                </div>
-                <div class="p-service__box__body__img">
-                  <img src="assets/images/service_img_05.png" alt="">
+                <div class="p-service__box__body__flex">
+                  <div class="p-service__box__body__text">
+                    <p>クリエイティブディレクター、動画エディターやデザイナーなど、<br>豊富な経験とスキルを持つスタッフ体制で安心して任せられます。</p>
+                  </div>
+                  <div class="p-service__box__body__img">
+                    <img src="assets/images/service_img_05.png" alt="">
+                  </div>
                 </div>
               </div>
             </div>
@@ -307,34 +339,34 @@
             <h2 class="c-heading">料金プランとサンプル</h2>
           </div>
           <div class="p-plan__btns">
-            <div id="plan-A" class="p-plan__btn">
+            <div id="plan-A" class="p-plan__btn active" data-target="#content-A">
               <span>A</span>
             </div>
-            <div id="plan-B" class="p-plan__btn">
+            <div id="plan-B" class="p-plan__btn" data-target="#content-B">
               <span>B</span>
             </div>
-            <div id="plan-C" class="p-plan__btn">
+            <div id="plan-C" class="p-plan__btn" data-target="#content-C">
               <span>C</span>
             </div>
-            <div id="plan-D" class="p-plan__btn">
+            <div id="plan-D" class="p-plan__btn" data-target="#content-D">
               <span>D</span>
             </div>
-            <div id="plan-E" class="p-plan__btn">
+            <div id="plan-E" class="p-plan__btn" data-target="#content-E">
               <span>E</span>
             </div>
-            <div id="plan-F" class="p-plan__btn">
+            <div id="plan-F" class="p-plan__btn" data-target="#content-F">
               <span>F</span>
             </div>
-            <div id="plan-G" class="p-plan__btn">
+            <div id="plan-G" class="p-plan__btn" data-target="#content-G">
               <span>G</span>
             </div>
-            <div id="plan-H" class="p-plan__btn">
+            <div id="plan-H" class="p-plan__btn" data-target="#content-H">
               <span>H</span>
             </div>
           </div>
           <div class="p-plan__contents">
             <!-- === PLAN-A === -->
-            <div class="p-plan__content p-plan__content__A">
+            <div id="content-A" class="p-plan__content p-plan__content__A open">
               <div class="p-plan__content__border">
                 <div class="p-plan__content__border__border"></div>
                 <p>PLAN<span>A</span>(撮影なし)</p>
@@ -357,42 +389,80 @@
                   <div class="p-plan__content__sample__list__border"></div>
                   <a href="">サンプル一覧</a>
                 </div>
-                <div class="p-plan__content__sample__items swiper">
-                  <div class="p-plan__content__sample__items__inner swiper-wrapper">
-                    <div class="p-plan__content__sample__item p-plan__content__sample__item__A swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_A_01.png" alt="">
+                <div class="p-plan__content__sample__items__swiper__inner">
+                  <div class="p-plan__content__sample__items swiper sample-slider">
+                    <div class="p-plan__content__sample__items__inner swiper-wrapper">
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__A swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_A_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>災害対策説明</p>
+                          <span>「防災」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>災害対策説明</p>
-                        <span>「防災」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_A_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
+                          <p>CP告知</p>
+                          <span>「寝具製品」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_A_02.png" alt="">
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__A swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_A_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>キッチン用品紹介</p>
+                          <span>「Smoovie Kitchen」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
-                        <p>CP告知</p>
-                        <span>「寝具製品」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__A swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_A_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>スライドショー</p>
+                          <span>「セミナー」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item p-plan__content__sample__item__A swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_A_03.png" alt="">
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__A swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_A_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>災害対策説明</p>
+                          <span>「防災」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>キッチン用品紹介</p>
-                        <span>「Smoovie Kitchen」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_A_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
+                          <p>CP告知</p>
+                          <span>「寝具製品」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item p-plan__content__sample__item__A swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_A_04.png" alt="">
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__A swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_A_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>キッチン用品紹介</p>
+                          <span>「Smoovie Kitchen」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>スライドショー</p>
-                        <span>「セミナー」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__A swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_A_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>スライドショー</p>
+                          <span>「セミナー」</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -469,7 +539,7 @@
               
             </div>
             <!-- === PLAN-B === -->
-            <div class="p-plan__content p-plan__content__B">
+            <div id="content-B" class="p-plan__content p-plan__content__B">
               <div class="p-plan__content__border">
                 <div class="p-plan__content__border__border"></div>
                 <p>PLAN<span>B</span>(撮影なし)</p>
@@ -492,42 +562,80 @@
                   <div class="p-plan__content__sample__list__border"></div>
                   <a href="">サンプル一覧</a>
                 </div>
-                <div class="p-plan__content__sample__items swiper">
-                  <div class="p-plan__content__sample__items__inner swiper-wrapper">
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_B_01.png" alt="">
+                <div class="p-plan__content__sample__items__swiper__inner">
+                  <div class="p-plan__content__sample__items swiper sample-slider">
+                    <div class="p-plan__content__sample__items__inner swiper-wrapper">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_B_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>観光地PR</p>
+                          <span>「観光協会」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>観光地PR</p>
-                        <span>「観光協会」</span>
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_B_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>製造プロセス紹介</p>
+                          <span>「工場」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_B_02.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_B_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>参加型CP告知</p>
+                          <span>「ダンス」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>製造プロセス紹介</p>
-                        <span>「工場」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_B_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
+                          <p>イベントCP告知</p>
+                          <span>「ラーメン祭」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item  swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_B_03.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_B_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>観光地PR</p>
+                          <span>「観光協会」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>参加型CP告知</p>
-                        <span>「ダンス」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_B_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
+                          <p>製造プロセス紹介</p>
+                          <span>「工場」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_B_04.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_B_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>参加型CP告知</p>
+                          <span>「ダンス」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
-                        <p>イベントCP告知</p>
-                        <span>「ラーメン祭」</span>
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_B_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>イベントCP告知</p>
+                          <span>「ラーメン祭」</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -603,7 +711,7 @@
               </div>
             </div>
             <!-- === PLAN-C === -->
-            <div class="p-plan__content p-plan__content__C">
+            <div id="content-C" class="p-plan__content p-plan__content__C">
               <div class="p-plan__content__border">
                 <div class="p-plan__content__border__border"></div>
                 <p>PLAN<span>C</span>(撮影なし)</p>
@@ -626,42 +734,80 @@
                   <div class="p-plan__content__sample__list__border"></div>
                   <a href="">サンプル一覧</a>
                 </div>
-                <div class="p-plan__content__sample__items swiper">
-                  <div class="p-plan__content__sample__items__inner swiper-wrapper">
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_C_01.png" alt="">
+                <div class="p-plan__content__sample__items__swiper__inner">
+                  <div class="p-plan__content__sample__items swiper sample-slider">
+                    <div class="p-plan__content__sample__items__inner swiper-wrapper">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_C_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>観光雑誌PR</p>
+                          <span>「大和浪漫」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>観光雑誌PR</p>
-                        <span>「大和浪漫」</span>
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_C_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>セール告知</p>
+                          <span>「アウトレットセール」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_C_02.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_C_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>スポーツ観戦告知</p>
+                          <span>「サッカー日本代表戦告知」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>セール告知</p>
-                        <span>「アウトレットセール」</span>
+                      <div class="p-plan__content__sample__item">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_C_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>商品PR</p>
+                          <span>「飲料」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item  swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_C_03.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_C_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>観光雑誌PR</p>
+                          <span>「大和浪漫」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>スポーツ観戦告知</p>
-                        <span>「サッカー日本代表戦告知」</span>
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_C_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>セール告知</p>
+                          <span>「アウトレットセール」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_C_04.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_C_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>スポーツ観戦告知</p>
+                          <span>「サッカー日本代表戦告知」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>商品PR</p>
-                        <span>「飲料」</span>
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_C_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>商品PR</p>
+                          <span>「飲料」</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -757,7 +903,7 @@
               </div>
             </div>
             <!-- === PLAN-D === -->
-            <div class="p-plan__content p-plan__content__A">
+            <div id="content-D" class="p-plan__content p-plan__content__A">
               <div class="p-plan__content__border">
                 <div class="p-plan__content__border__border"></div>
                 <p>PLAN<span>D</span>(撮影なし)</p>
@@ -780,42 +926,80 @@
                   <div class="p-plan__content__sample__list__border"></div>
                   <a href="">サンプル一覧</a>
                 </div>
-                <div class="p-plan__content__sample__items swiper">
-                  <div class="p-plan__content__sample__items__inner swiper-wrapper">
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_D_01.png" alt="">
+                <div class="p-plan__content__sample__items__swiper__inner">
+                  <div class="p-plan__content__sample__items swiper sample-slider">
+                    <div class="p-plan__content__sample__items__inner swiper-wrapper">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_D_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>教育サービス紹介</p>
+                          <span>「英会話」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>教育サービス紹介</p>
-                        <span>「英会話」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_D_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
+                          <p>イベントPR告知</p>
+                          <span>「ゲーム」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_D_02.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_D_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>環境問題</p>
+                          <span>「電気自動車」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
-                        <p>イベントPR告知</p>
-                        <span>「ゲーム」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_D_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
+                          <p>商品PR告知</p>
+                          <span>「Wi-Fi Pocket」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item  swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_D_03.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_D_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>教育サービス紹介</p>
+                          <span>「英会話」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>環境問題</p>
-                        <span>「電気自動車」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_D_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
+                          <p>イベントPR告知</p>
+                          <span>「ゲーム」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_D_04.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_D_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>環境問題</p>
+                          <span>「電気自動車」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
-                        <p>商品PR告知</p>
-                        <span>「Wi-Fi Pocket」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_D_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
+                          <p>商品PR告知</p>
+                          <span>「Wi-Fi Pocket」</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -895,7 +1079,7 @@
               </div>
             </div>
             <!-- === PLAN-E === -->
-            <div class="p-plan__content p-plan__content__A">
+            <div id="content-E" class="p-plan__content p-plan__content__E">
               <div class="p-plan__content__border p-plan__content__border__subColor">
                 <div class="p-plan__content__border__border"></div>
                 <p>PLAN<span>E</span>(撮影なし)</p>
@@ -918,42 +1102,80 @@
                   <div class="p-plan__content__sample__list__border"></div>
                   <a href="">サンプル一覧</a>
                 </div>
-                <div class="p-plan__content__sample__items swiper">
-                  <div class="p-plan__content__sample__items__inner swiper-wrapper">
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_E_01.png" alt="">
+                <div class="p-plan__content__sample__items__swiper__inner">
+                  <div class="p-plan__content__sample__items swiper sample-slider">
+                    <div class="p-plan__content__sample__items__inner swiper-wrapper">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_E_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>新商品紹介</p>
+                          <span>「スマートフォン」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>新商品紹介</p>
-                        <span>「スマートフォン」</span>
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_E_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>商業施設案内</p>
+                          <span>「ショッピングモール」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_E_02.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_E_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>サービス紹介</p>
+                          <span>「位置情報サービス」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>商業施設案内</p>
-                        <span>「ショッピングモール」</span>
+                      <div class="p-plan__content__sample__item">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_E_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>設備紹介</p>
+                          <span>「飲料」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item  swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_E_03.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_E_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>新商品紹介</p>
+                          <span>「スマートフォン」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>サービス紹介</p>
-                        <span>「位置情報サービス」</span>
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_E_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>商業施設案内</p>
+                          <span>「ショッピングモール」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie">
-                        <img src="assets/images/plan_sample_list_E_04.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_E_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>サービス紹介</p>
+                          <span>「位置情報サービス」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p>設備紹介</p>
-                        <span>「火力発電」</span>
+                      <div class="p-plan__content__sample__item">
+                        <div class="p-plan__content__sample__item__movie">
+                          <img src="assets/images/plan_sample_list_E_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p>設備紹介</p>
+                          <span>「飲料」</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -1034,7 +1256,7 @@
               </div>
             </div>
             <!-- === PLAN-F === -->
-            <div class="p-plan__content p-plan__content__F">
+            <div id="content-F" class="p-plan__content p-plan__content__F">
               <div class="p-plan__content__border p-plan__content__border__subColor">
                 <div class="p-plan__content__border__border"></div>
                 <p>PLAN<span>F</span>(撮影なし)</p>
@@ -1057,42 +1279,80 @@
                   <div class="p-plan__content__sample__list__border p-plan__content__sample__list__border__subColor u-color-primary-2"></div>
                   <a href="" class="u-color-primary-2 u-subColor-btn">サンプル一覧</a>
                 </div>
-                <div class="p-plan__content__sample__items swiper">
-                  <div class="p-plan__content__sample__items__inner swiper-wrapper">
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
-                        <img src="assets/images/plan_sample_list_F_01.png" alt="">
+                <div class="p-plan__content__sample__items__swiper__inner">
+                  <div class="p-plan__content__sample__items swiper sample-slider">
+                    <div class="p-plan__content__sample__items__inner swiper-wrapper">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_F_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p class="u-color-primary-2">新商品紹介</p>
+                          <span>「スマートフォン」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p class="u-color-primary-2">新商品紹介</p>
-                        <span>「スマートフォン」</span>
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_F_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p class="u-color-primary-2">商業施設案内</p>
+                          <span>「ショッピングモール」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
-                        <img src="assets/images/plan_sample_list_F_02.png" alt="">
+                      <div class="p-plan__content__sample__item  swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_F_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p class="u-color-primary-2">サービス紹介</p>
+                          <span>「位置情報サービス」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p class="u-color-primary-2">商業施設案内</p>
-                        <span>「ショッピングモール」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_F_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
+                          <p class="u-color-primary-2">設備紹介</p>
+                          <span>「火力発電」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item  swiper-slide">
-                      <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
-                        <img src="assets/images/plan_sample_list_F_03.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_F_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p class="u-color-primary-2">新商品紹介</p>
+                          <span>「スマートフォン」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p class="u-color-primary-2">サービス紹介</p>
-                        <span>「位置情報サービス」</span>
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_F_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p class="u-color-primary-2">商業施設案内</p>
+                          <span>「ショッピングモール」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
-                      <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
-                        <img src="assets/images/plan_sample_list_F_04.png" alt="">
+                      <div class="p-plan__content__sample__item  swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_F_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p class="u-color-primary-2">サービス紹介</p>
+                          <span>「位置情報サービス」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
-                        <p class="u-color-primary-2">設備紹介</p>
-                        <span>「火力発電」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_F_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
+                          <p class="u-color-primary-2">設備紹介</p>
+                          <span>「火力発電」</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -1181,7 +1441,7 @@
               </div>
             </div>
             <!-- === PLAN-G === -->
-            <div class="p-plan__content p-plan__content__F">
+            <div id="content-G" class="p-plan__content p-plan__content__F">
               <div class="p-plan__content__border p-plan__content__border__subColor">
                 <div class="p-plan__content__border__border"></div>
                 <p>PLAN<span>G</span>(撮影なし)</p>
@@ -1204,42 +1464,80 @@
                   <div class="p-plan__content__sample__list__border p-plan__content__sample__list__border__subColor u-color-primary-2"></div>
                   <a href="" class="u-color-primary-2 u-subColor-btn">サンプル一覧</a>
                 </div>
-                <div class="p-plan__content__sample__items swiper">
-                  <div class="p-plan__content__sample__items__inner swiper-wrapper">
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
-                        <img src="assets/images/plan_sample_list_G_01.png" alt="">
+                <div class="p-plan__content__sample__items__swiper__inner">
+                  <div class="p-plan__content__sample__items swiper sample-slider">
+                    <div class="p-plan__content__sample__items__inner swiper-wrapper">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_G_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p class="u-color-primary-2">リクルート案内</p>
+                          <span>「新卒採用動画」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p class="u-color-primary-2">リクルート案内</p>
-                        <span>「新卒採用動画」</span>
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_G_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p class="u-color-primary-2">セミナー紹介</p>
+                          <span>「講演会」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item swiper-slide">
-                      <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
-                        <img src="assets/images/plan_sample_list_G_02.png" alt="">
+                      <div class="p-plan__content__sample__item  swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_G_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p class="u-color-primary-2">サービス紹介</p>
+                          <span>「オンラインサロン」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p class="u-color-primary-2">セミナー紹介</p>
-                        <span>「講演会」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_G_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
+                          <p class="u-color-primary-2">インタビュー</p>
+                          <span>「夏期講習」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item  swiper-slide">
-                      <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
-                        <img src="assets/images/plan_sample_list_G_03.png" alt="">
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_G_01.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p class="u-color-primary-2">リクルート案内</p>
+                          <span>「新卒採用動画」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text">
-                        <p class="u-color-primary-2">サービス紹介</p>
-                        <span>「オンラインサロン」</span>
+                      <div class="p-plan__content__sample__item swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_G_02.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p class="u-color-primary-2">セミナー紹介</p>
+                          <span>「講演会」</span>
+                        </div>
                       </div>
-                    </div>
-                    <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
-                      <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
-                        <img src="assets/images/plan_sample_list_G_04.png" alt="">
+                      <div class="p-plan__content__sample__item  swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_G_03.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text">
+                          <p class="u-color-primary-2">サービス紹介</p>
+                          <span>「オンラインサロン」</span>
+                        </div>
                       </div>
-                      <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
-                        <p class="u-color-primary-2">インタビュー</p>
-                        <span>「夏期講習」</span>
+                      <div class="p-plan__content__sample__item p-plan__content__sample__item__beside swiper-slide">
+                        <div class="p-plan__content__sample__item__movie p-plan__content__sample__item__movie__subColor">
+                          <img src="assets/images/plan_sample_list_G_04.png" alt="">
+                        </div>
+                        <div class="p-plan__content__sample__item__text p-plan__content__sample__item__text__vertical">
+                          <p class="u-color-primary-2">インタビュー</p>
+                          <span>「夏期講習」</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -1336,7 +1634,7 @@
               </div>
             </div>
             <!-- === PLAN-H === -->
-            <div class="p-plan__content p-plan__content__F">
+            <div id="content-H" class="p-plan__content p-plan__content__F">
               <div class="p-plan__content__border p-plan__content__border__subColor">
                 <div class="p-plan__content__border__border"></div>
                 <p>PLAN<span>H</span>(撮影なし)</p>
@@ -1351,7 +1649,7 @@
                   <div class="p-plan__content__heading__body__text">
                     <p>料金プランに当てはまらず、<span class="u-color-primary-2">１から企画を検討したい場合</span>や、<br><span class="u-color-primary-2">規模の大きな映像制作を実施したい場合</span>に、カスタマイズで対応します。</p>
                     <div class="p-plan__content__heading__body__text__flex">
-                      <a href="#estimate">個別にお見積もり</a>
+                      <a href="#contact">個別にお見積もり</a>
                       <span>※本プランは、他のメニュープランと違い、ご提案からの<br>実施・納品にお時間をいただくことになります。</span>
                     </div>
                   </div>
@@ -1428,11 +1726,11 @@
             <h2 class="c-heading">オプション料金</h2>
           </div>
           <div class="p-fee__btns">
-            <button id="fee-btn" class="p-fee__btn active">料金プラン</button>
-            <button id="option-fee-btn" class="p-fee__btn">オプションプラン</button>
+            <button id="fee-btn" class="p-fee__btn active" data-target="#fee-content">料金プラン</button>
+            <button id="option-fee-btn" class="p-fee__btn" data-target="#option-content">オプションプラン</button>
           </div>
           <!-- == 料金プランのコンテンツ == -->
-          <div id="fee-content" class="p-fee__content">
+          <div id="fee-content" class="p-fee__content open">
             <div class="p-fee__content__edit__block p-fee__content__block">
               <div class="p-fee__content__edit__ele__1 p-fee__content__ele__1">
                 <div class="p-fee__content__edit__heading p-fee__content__heading">
@@ -1731,11 +2029,6 @@
           </div>
           <!-- == オプション料金のコンテンツ == -->
           <div id="option-content" class="p-fee__optionContent p-fee__content">
-            <!--<div class="p-fee__optionContent__table">
-              <div class="p-fee__optionContent__table__heading">
-                <p>オプション料金</p>
-              </div>
-            </div>-->
             <div class="p-fee__optionContent__tables">
               <table class="p-fee__optionContent__table">
                 <tr class="p-fee__optionContent__tr">
@@ -1994,7 +2287,7 @@
             <h2 class="c-heading">ご納品までの流れ</h2>
           </div>
           <div class="p-deliver__btns">
-            <div id="edit-flow-btn" class="p-deliver__btn active">
+            <div id="edit-flow-btn" class="p-deliver__btn active" data-target="#edit-flow">
               <div class="p-deliver__btn__img">
                 <img src="assets/images/deliver_btn_img_01.png" alt="">
               </div>
@@ -2002,7 +2295,7 @@
                 <p><span>「編集のみ」</span>制作の流れ</p>
               </div>
             </div>
-            <div id="production-flow-btn" class="p-deliver__btn">
+            <div id="production-flow-btn" class="p-deliver__btn" data-target="#production-flow">
               <div class="p-deliver__btn__img">
                 <img src="assets/images/deliver_btn_img_02.png" alt="">
               </div>
@@ -2012,7 +2305,7 @@
             </div>
           </div>
           <!-- === 「編集のみ」制作の流れの納品フロー === -->
-          <div id="edit-flow" class="p-deliver__flow p-deliver__editOnly__flow">
+          <div id="edit-flow" class="p-deliver__flow p-deliver__editOnly__flow open">
             <div class="p-deliver__flow__body">
               <!-- == ご依頼 == -->
               <div class="p-deliver__flow__item">
@@ -2550,390 +2843,390 @@
               <div class="p-qa__content__list__heading">
                 <h3>納期</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>制作日数はどの程度かかりますか。</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>ご制作の内容、ご選択のプランによって変動します。「納品の流れ」をご参照のうえ、制作内容をご相談ください。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>できる限り短期で制作できますか。</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>当社がご提示する納期より大幅な短縮をご希望の場合は、割増料金を加算してお見積もりをご提示いたします。<br>ただし、納期によってはお受けできない場合ごもざいます。</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === 料金　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>料金</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>見積もり金額からさらに料金を値引きできますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>料金をメニュー化することで低額でのサービスを実現しているため、基本的にお値引きはできません。<br>ただし、以下については割引料金を適用いたします。<br>シリーズ割引：同様企画を同時に２本以上発注した場合、２本目10％OFF、３本目15％OFF、４本目20％OFF、５本目25％OFF</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === お打ち合わせ　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>お打ち合わせ</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>対面での打ち合わせは可能ですか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>料実施ご決定までは、メールやオンライン・ミーティングでのやりとりとさせていただいております。<br>実施ご決定後も基本的には同様ですが、東京近郊の場合は、ご訪問も可能なケースがございますのでご相談ください。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>オンライン・ミーティングなしで、電話やメールのみでやりとりすることも可能ですか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>制作内容がシンプルな場合や、同様案件で複数回ご発注いただいている際には、オンライン・ミーティングなしでも可能です。</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === 原稿・構成制作　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>原稿・構成制作</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>動画のナレーション原稿や映像構成の制作は、どのような仕様になりますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>ナレーション原稿は、Microsoft Word での文字のみの制作になります。（Power Pointも可）<br>映像構成資料は、Power PointにA4縦で写真画像やイラストを配置して制作いたします。（Wordも可）<br>お客様ご提供のwordまたはPower Point資料に追記することも可能です。料金は、オプション料金表をご参照ください。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>ナレーションやテロップの外国語への翻訳は可能ですか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>協力会社を通じて手配します。料金は、別途お見積もりとなります。（対応できない言語もあります）</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === ナレーション収録　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>ナレーション収録</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span> ナレーション収録後に原稿修正が発生し、再収録が必要になった際は、追加料金は発生しますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>再収録は、1回までは無料で修正に対応いたします。2回目以降の修正収録は、別途お見積もりとなります。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>収録音声の品質に問題はないですか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>収録は各ナレーターの宅録環境にて行っていますが、Web動画やWeb広告などの視聴には問題のない品質を確保しています。<br>TVCMやTV番組でご使用の際は、放送基準へのデータ調整が必要になります。料金は、別途お見積もりとなります。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>立ち合いのもと、スタジオでの収録をお願いできますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>都内近郊であれば、ナレーターを派遣の上、スタジオで収録することも可能です。料金は、オプション料金表をご参照ください。<br>また、当社にてスタジオを手配することも可能です。料金は、別途お見積もりとなります。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>外国語ナレーターは手配できますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>協力会社を通じて手配します。また、都内近郊であれば、ナレーターを派遣の上、スタジオで収録することも可能です。<br>料金は、別途お見積もりとなります。ただし、外国語ナレーターの場合、基本、音声の買取はできません。</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === 映像編集　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>映像編集</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>映像編集の修正で追加料金は発生しますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>５回を修正の目処とさせていただき、以降は修正内容によって、別途お見積もりをさせていただきます。<br>５回以内であっても、映像構成全体に関わる修正が発生した際には、別途お見積もりをさせていただくことがあります。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>画像や映像の色変更（カラーコレクト／グレーディング）はお願いできますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>画像、映像どちらも、微調整の範囲の色調整であれば料金内で対応します。ただし、大幅な変更、細部の広範囲な調整になると、オプション料金「カラーグレーディング」の適用となり、動画尺１分につき50,000円（税別）となります。スタジオでの立ち会い編集の場合は、別途、お見積もりとなります。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>編集スタジオでの客先立ち会い編集は可能ですか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>都内近郊であれば可能です。ただし、オプション料金となり、スタジオ代やエディター代など、別途、お見積もりとなります。</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === 撮影　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>撮影</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>撮影は、どのような体制で実施しますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>商品のマニュアル説明など、一定程度の映像品質があれば問題ない場合は、業務用カメラ１台でプロのカメラマンが対応するPlan Fをお勧めします。音声の収録が必要なインタビュー撮影やイベント・講演などの撮影の場合は、業務用カメラ２台でプロのカメラマンが対応するPlan Gをお勧めします。撮影には、基本的な照明機材も含まれていますが、追加で小道具や美術、その他機材などが必要な際は、別途お見積もりとなります。また、映像クオリティや体制の強化をお求めの際は、Plan Hのカスタマイズ制作となります。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>８Kでの撮影は可能ですか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>可能です。ただし、撮影はPlan Hのカスタマイズ制作が適用され、別途お見積もりとなります。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>GoProやドローンなどによる撮影は可能ですか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>撮影条件により対応可能です。撮影前にお申し付けください。撮影機材を指定する場合は、Plan Hのカスタマイズ制作が適用され、別途、お見積もりとなります。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>スマートフォンカメラによる撮影は可能ですか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>スマートフォンカメラによる撮影には対応していません。ただし、条件によっては可能の場合もありますので、一度ご相談ください。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>自社や関連の施設などに訪問の上、撮影することは可能ですか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>スケジュールを調整した上で、対応いたします。撮影内容によっては、ロケハンが必要な場合もあります。出張撮影にあたっては、別途、移動に関わる交通費や各種雑費が必要となります。撮影日数が２日以上、または、宿泊が必要となる遠方での撮影の場合、Plan H のカスタマイズ制作の適用され、別途お見積もりとなります。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>役者や著名人・タレントを手配しての撮影は可能ですか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>キャスティング会社を通じて手配します。また、オーディションによる選出も対応します。<br>キャスティング費、出演費、契約費用、オーディション費は、別途、お見積もりとなります。</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === 納品　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>納品</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>動画の納品仕様を教えてください。</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>データ形式はmovまたはmp4、サイズはフルHD（1920 x 1080px）またはHD（1080 x 720px）を基本としてご納品します。<br>wmvなど他の形式、4KやSDなど他のサイズをご希望の際は事前にお申し付けください。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>納品動画の容量はどのくらいになりますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>動画尺にもより大きく変動しますが、movでフルHD （1920 x 1080px）の場合、１動画あたり数百メガから数ギガ、<br>mp4の場合、１動画あたり数メガから数百メガが目安となります。画質を落とすことでファイル容量を小さくすることも可能です。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>制作動画の提出、納品方法を教えてください。</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>オンライン・ストレージのURL送付によるご納品が基本となります。容量が大きい場合は、USBメモリやSSDなどの外部記録メディアを郵送にてご送付することもあります。（メディア購入の費用が別途必要です）<br>ご指定の送付方式等がある場合は、事前にお申し付けください。</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === 映像の権利・契約　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>映像の権利・契約</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>制作した動画、撮影した映像の使用期限や著作権はどうなりますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>当社で制作した画像や映像、当社が手配したナレーションなど、制作した動画に関わる素材は、基本、期限や媒体の制限なしでご使用いただけます。著作権についても貴社に譲渡いたします。ただし、第三者サービスが提供する、ロイヤリティ・フリーの画像、動画、BGM等は、期限や媒体の制限なくご使用いただけるものを選定しますが、著作権は、第三者サービスの規定に基づきます。<br>また、撮影にあたって、出演者を起用する際は、使用に条件が発生する場合がございます。その他、Plan F カスタマイズ制作において使用条件や著作権について条件が発生する場合は、都度、ご相談いたします。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>動画に関する著作権譲渡の契約は締結できますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>契約書雛形を貴社にてご提供いただき、合意が成立した際に締結いたします。ただし、ロイヤリティ・フリーの画像、動画、BGMなど、第三者サービスが提供する素材については、第三者サービスの規定に基づきます。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>守秘義務契約は締結できますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>契約書雛形を貴社にてご提供いただき、合意が成立した際に締結いたします。</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === リサイズ、画角変更　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>リサイズ、画角変更</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>フルHD（1920 x 1080px）とHD（1280 x 720px）など複数の解像度での制作が必要な際、追加料金は必要ですか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>同画角での解像度違いの納品は、無料で対応します。４K以上の解像度で納品が必要な際は、事前にお申し付けください。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span> 16:9の横長で制作した映像を、スマホ用に縦長、または正方形にすることはできますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>１点につき、10,000円（税別）で対応します。横型の映像をそのまま縦長にする場合、上下の余白を入れて縦長にします。<br>余白にはテキストや画像を入れることも可能です。また、映像に影響のない程度に左右を切り取って（トリミング）し、正方形などにするリサイズも可能です。</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === 納品後の改訂　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>納品後の改訂</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>制作後に、改訂が必要になった場合も対応できますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>改訂内容を伺い、お見積もりいたします。 ただし、映像素材の保管は、ご納品から２年までとなります。<br>それ以降は、編集素材を破棄している場合がございますのでご了承ください。</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === グラフィック、LP制作　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>グラフィック、LP制作</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>YouTube用のサムネイル画像は制作できますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>サイズに関わらず、１点につき3,000円になります。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>動画の素材を活かしたチラシを同時に制作できますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>対応可能です。オプション料金で、A4カラー片面50,000円（両面100,000円／A4・4P200,000円）になります。</p>
                 </div>
-              </details>
-              <details class="p-qa__content__list__item">
+              </div>
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>動画の素材を格納するLPも制作できますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>サイト・デザイン、コーディングともに対応可能です。別途、お見積もりとなります。</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === キャンセル・フィー　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>キャンセル・フィー</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>途中キャンセルの場合は、キャンセル・フィーは発生しますか？</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>お見積もりをご提示し、実施のご決定をいただいて以降にキャンセルした場合、または２ヶ月を超えて制作が中断した場合に、キャンセル・フィーが発生いたします。詳しくは、キャンセル・ポリシーをご覧ください。</p>
                 </div>
-              </details>
+              </div>
             </div>
             <!-- === ご請求・お支払い　=== -->
             <div class="p-qa__content__list">
               <div class="p-qa__content__list__heading">
                 <h3>ご請求・お支払い</h3>
               </div>
-              <details class="p-qa__content__list__item">
+              <div class="p-qa__content__list__item">
                 <summary class="p-qa__content__list__question">
                   <p><span>Q</span>支払い方法、支払いサイトを教えてください。</p>
-                  <div class="p-qa__content__list__icon">＋</div>
+                  <div class="p-qa__content__list__icon"></div>
                 </summary>
                 <div class="p-qa__content__list__answer">
                   <p><span>A</span>お支払いは銀行振込のみとなっています。振込手数料は、貴社のご負担でお願いしています。また、お支払いのサイトは、納品月の末締め、翌月末までの入金をお願いしています。 貴社の取引規定等がございましたら、一度ご相談ください。</p>
                 </div>
-              </details>
+              </div>
             </div>
           </div>
         </div>
@@ -3064,16 +3357,16 @@
             <h2 class="c-heading">ご相談・お見積もりフォーム</h2>
           </div>
           <div class="p-contact__btns">
-            <div class="p-contact__btn active">
+            <div class="p-contact__btn active" data-target="#contact-form">
               <p>とりあえず問合せや<br>相談をしたいお客さま</p>
             </div>
-            <div class="p-contact__btn">
+            <div class="p-contact__btn" data-target="#estimate-form">
               <p>お見積もりをご希望の<br>お客さま</p>
             </div>
           </div>
           <div class="p-contact__forms">
             <!-- === とりあえず問合せや相談をしたいお客さま === -->
-            <form action="" method="post" class="p-contact__form p-contact__consult__form">
+            <form action="" method="post" id="contact-form" class="p-contact__form p-contact__consult__form open">
               <div class="p-contact__form__inner">
                 <div class="p-contact__form__box">
                   <!-- = お名前 = -->
@@ -3317,7 +3610,7 @@
               <button type="submit" class="p-contact__form__submit">返信内容の確定</button>
             </form>
             <!-- === お見積もりをご希望のお客さま === -->
-            <form action="" method="post" class="p-contact__form p-contact__estimate__form">
+            <form action="" method="post" id="estimate-form" class="p-contact__form p-contact__estimate__form">
               <div class="p-contact__form__inner p-contact__form__inner__subColor">
                 <div class="p-contact__form__box">
                   <!-- = お名前 = -->
@@ -3878,6 +4171,5 @@
       </div>
     </footer>
   </div>
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
