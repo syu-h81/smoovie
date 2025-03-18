@@ -1120,7 +1120,7 @@ img {
 .p-fee__btn:first-child {
   background-color: #fff;
   border: 2px solid #1D3C99;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5), inset -5px -5px 0px -2px #1D3C99;
+  box-shadow: inset -5px -5px 0px -2px #1D3C99;
   color: #1D3C99;
 }
 .p-fee__btn:first-child.active {
@@ -1129,7 +1129,7 @@ img {
 .p-fee__btn:last-child {
   background-color: #fff;
   border: 2px solid #288EC1;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5), inset -5px -5px 0px -2px #288EC1;
+  box-shadow: inset -5px -5px 0px -2px #288EC1;
   color: #288EC1;
 }
 .p-fee__btn:last-child.active {
@@ -1217,7 +1217,7 @@ img {
   height: 70px;
 }
 .p-fee__content__edit__logo__B, .p-fee__content__edit__logo__C, .p-fee__content__edit__logo__F, .p-fee__content__edit__logo__G, .p-fee__content__photograph__logo__B, .p-fee__content__photograph__logo__C, .p-fee__content__photograph__logo__F, .p-fee__content__photograph__logo__G {
-  width: 13%;
+  width: 13.3%;
 }
 .p-fee__content__edit__logo__H, .p-fee__content__photograph__logo__H {
   height: 100px;
@@ -1238,7 +1238,7 @@ img {
   align-items: center;
 }
 .p-fee__content__edit__text__B, .p-fee__content__edit__text__C, .p-fee__content__edit__text__F, .p-fee__content__edit__text__G, .p-fee__content__photograph__text__B, .p-fee__content__photograph__text__C, .p-fee__content__photograph__text__F, .p-fee__content__photograph__text__G {
-  width: 53.5%;
+  width: 53.2%;
 }
 .p-fee__content__edit__text__F, .p-fee__content__edit__text__G, .p-fee__content__photograph__text__F, .p-fee__content__photograph__text__G {
   display: flex;
@@ -1481,7 +1481,7 @@ img {
 .p-deliver__btn:first-child {
   background-color: #fff;
   border: 2px solid #1D3C99;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5), inset -5px -5px 0px -2px #1D3C99;
+  box-shadow: inset -5px -5px 0px -2px #1D3C99;
   color: #1D3C99;
 }
 .p-deliver__btn:first-child.active {
@@ -1497,7 +1497,7 @@ img {
 .p-deliver__btn:last-child {
   background-color: #fff;
   border: 2px solid #288EC1;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5), inset -5px -5px 0px -2px #288EC1;
+  box-shadow: inset -5px -5px 0px -2px #288EC1;
   color: #288EC1;
 }
 .p-deliver__btn:last-child.active {
@@ -1534,6 +1534,10 @@ img {
 .p-deliver__flow__item__img {
   width: 50px;
   max-height: 50px;
+  /*img {
+    //width: 50px;
+    //height: 50px;
+  }*/
 }
 .p-deliver__flow__item__name {
   width: 100%;
