@@ -39,84 +39,28 @@
         <nav class="l-header__nav">
           <ul class="l-header__nav__list">
             <a href="#top" class="l-header__nav__link">
-              <li class="l-header__nav__item">
-                <div class="l-header__nav__item__logo">
-                  <img src="assets/images/home_logo.png" alt="">
-                </div>
-                <div class="l-header__nav__item__text">
-                  <span>HOME</span>
-                </div>
-              </li>
+              <img src="assets/images/アセット 4@4x.png" alt="">
             </a>
             <a href="#service" class="l-header__nav__link">
-              <li class="l-header__nav__item">
-                <div class="l-header__nav__item__logo">
-                  <img src="assets/images/service_logo.png" alt="">
-                </div>
-                <div class="l-header__nav__item__text">
-                  <span>サービス特長</span>
-                </div>
-              </li>
+              <img src="assets/images/アセット 9@4x.png" alt="">
             </a>
             <a href="#plan" class="l-header__nav__link">
-              <li class="l-header__nav__item">
-                <div class="l-header__nav__item__logo">
-                  <img src="assets/images/plan_logo.png" alt="">
-                </div>
-                <div class="l-header__nav__item__text">
-                  <span>料金プラン</span>
-                </div>
-              </li>
+              <img src="assets/images/アセット 3@4x.png" alt="">
             </a>
             <a href="#fee" class="l-header__nav__link">
-              <li class="l-header__nav__item">
-                <div class="l-header__nav__item__logo">
-                  <img src="assets/images/fee_logo.png" alt="">
-                </div>
-                <div class="l-header__nav__item__text">
-                  <span>料金表・割引</span>
-                </div>
-              </li>
+              <img src="assets/images/アセット 6@4x.png" alt="">
             </a>
             <a href="#deliver" class="l-header__nav__link">
-              <li class="l-header__nav__item">
-                <div class="l-header__nav__item__logo">
-                  <img src="assets/images/deliver_logo.png" alt="">
-                </div>
-                <div class="l-header__nav__item__text">
-                  <span>ご納品の流れ</span>
-                </div>
-              </li>
+              <img src="assets/images/アセット 7@4x.png" alt="">
             </a>
             <a href="#qa" class="l-header__nav__link">
-              <li class="l-header__nav__item">
-                <div class="l-header__nav__item__logo">
-                  <img src="assets/images/qa_logo.png" alt="">
-                </div>
-                <div class="l-header__nav__item__text">
-                  <span>よくある質問</span>
-                </div>
-              </li>
+              <img src="assets/images/アセット 10@4x.png" alt="">
             </a>
             <a href="#staff" class="l-header__nav__link">
-              <li class="l-header__nav__item">
-                <div class="l-header__nav__item__logo">
-                  <img src="assets/images/staff_logo.png" alt="">
-                </div>
-                <div class="l-header__nav__item__text">
-                  <span>スタッフ・実績</span>
-                </div>
-              </li>
+              <img src="assets/images/アセット 8@4x.png" alt="">
             </a>
             <a href="#contact" class="l-header__nav__link">
-              <li class="l-header__nav__item">
-                <div class="l-header__nav__item__logo">
-                  <img src="assets/images/contact_logo.png" alt="">
-                </div>
-                <div class="l-header__nav__item__text">
-                  <span>お問合わせ</span>
-                </div>
-              </li>
+              <img src="assets/images/アセット 10@4x.png" alt="">
             </a>
           </ul>
         </nav>
@@ -152,7 +96,7 @@
               </div>
               <div class="p-top__card__text">
                 <span>サービスの<br>特長を知る</span>
-              </div>           
+              </div>
             </a>
             <a href="#plan" class="p-top__card">
               <div class="p-top__card__img">
@@ -244,7 +188,9 @@
             <div class="p-service__box">
               <div class="p-service__box__flex">
                 <div class="p-service__box__check"></div>
-                <h3 class="p-service__box__heading"><span class="u-color-primary-2">シンプル</span>で<span class="u-color-primary-2">お手頃</span>な料金メニュー！</h3>
+                <h3 class="p-service__box__heading">
+                  <img src="assets/images/service_heading_img_01.png" alt="">
+                </h3>
               </div>
               <div class="p-service__box__body">
                 <div class="p-service__box__body__flex">
@@ -260,7 +206,9 @@
             <div class="p-service__box">
               <div class="p-service__box__flex">
                 <div class="p-service__box__check"></div>
-                <h3 class="p-service__box__heading">豊富な<span class="u-color-primary-2">サンプル動画</span>から制作イメージを探せる！</h3>
+                <h3 class="p-service__box__heading">
+                  <img src="assets/images/service_heading_img_02.png" alt="">
+                </h3>
               </div>
               <div class="p-service__box__body">
                 <div class="p-service__box__body__flex">
@@ -276,7 +224,9 @@
             <div class="p-service__box">
               <div class="p-service__box__flex">
                 <div class="p-service__box__check"></div>
-                <h3 class="p-service__box__heading">プロの<span class="u-color-primary-2">ナレーター１名</span>を<span class="u-color-primary-2">無料</span>で起用できる！</h3>
+                <h3 class="p-service__box__heading">
+                  <img src="assets/images/service_heading_img_03.png" alt="">
+                </h3>
               </div>
               <div class="p-service__box__body">
                 <div class="p-service__box__body__flex">
@@ -292,7 +242,9 @@
             <div class="p-service__box">
               <div class="p-service__box__flex">
                 <div class="p-service__box__check"></div>
-                <h3 class="p-service__box__heading">納品スケジュールも<span class="u-color-primary-2">スピーディ</span>！</h3>
+                <h3 class="p-service__box__heading">
+                  <img src="assets/images/service_heading_img_04.png" alt="">
+                </h3>
               </div>
               <div class="p-service__box__body">
                 <div class="p-service__box__body__flex">
@@ -308,7 +260,9 @@
             <div class="p-service__box">
               <div class="p-service__box__flex">
                 <div class="p-service__box__check"></div>
-                <h3 class="p-service__box__heading">経験豊富なクリエイターによる安心のスタッフ体制！</h3>
+                <h3 class="p-service__box__heading">
+                  <img src="assets/images/service_heading_img_05.png" alt="">
+                </h3>
               </div>
               <div class="p-service__box__body">
                 <div class="p-service__box__body__flex">
@@ -848,50 +802,8 @@
                       </tr>
                     </table>
                   </div>
-                  <div class="p-plan__content__price__service">
-                    <div class="p-plan__content__price__service__heading">本プランに含むサービス</div>
-                    <div class="p-plan__content__price__service__items">
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_01.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>NA・セリフ<br>字幕挿入</p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_02.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ナレーター<br><span class="u-color-primary">1名</span>起用</p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_03.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ロイヤリティ・<br>フリー<span class="u-color-primary">楽曲</span></p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_04.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ロイヤリティ・<br>フリー動画<span class="u-color-primary">5点</span></p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_05.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ロイヤリティ・<br>フリー画像<span class="u-color-primary">10点</span></p>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="p-plan__content__price__service p-plan__content__price__service__C">
+                    <img src="assets/images/a.png" alt="">
                   </div>
                 </div>
                 <div class="p-plan__content__price__supplyment">
@@ -1393,42 +1305,8 @@
                       </tr>
                     </table>
                   </div>
-                  <div class="p-plan__content__price__service u-subColor-table-border">
-                    <div class="p-plan__content__price__service__heading u-color-primary-2">本プランに含むサービス</div>
-                    <div class="p-plan__content__price__service__items">
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_06.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>NA・セリフ<br>字幕挿入</p>
-                        </div>
-                        </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_07.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ナレーター<br><span class="u-color-primary-2">1名</span>起用</p>
-                        </div>
-                        </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_08.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ロイヤリティ・<br>フリー楽曲<span class="u-color-primary-2">1曲</span></p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_09.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>業務用カメラ<br><span class="u-color-primary-2">1台</span></p>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="p-plan__content__price__service p-plan__content__price__service__F">
+                    <img src="assets/images/plan_service_F.png" alt="">
                   </div>
                 </div>
                 <div class="p-plan__content__price__supplyment">
@@ -1578,50 +1456,8 @@
                       </tr>
                     </table>
                   </div>
-                  <div class="p-plan__content__price__service u-subColor-table-border">
-                    <div class="p-plan__content__price__service__heading u-color-primary-2">本プランに含むサービス</div>
-                    <div class="p-plan__content__price__service__items">
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_06.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>NA・セリフ<br>字幕挿入</p>
-                        </div>
-                        </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_07.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ナレーター<br><span class="u-color-primary-2">1名</span>起用</p>
-                        </div>
-                        </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_08.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ロイヤリティ・<br>フリー楽曲<span class="u-color-primary-2">1曲</span></p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_09.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>業務用カメラ<br><span class="u-color-primary-2">1台</span></p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_10.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ピンマイク<br><span class="u-color-primary-2">2個</span></p>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="p-plan__content__price__service p-plan__content__price__service__G">
+                    <img src="assets/images/plan_service_g.png" alt="">
                   </div>
                 </div>
                 <div class="p-plan__content__price__supplyment">
@@ -2324,7 +2160,7 @@
               <!-- == ヒアリング（オンライン会議） == -->
               <div class="p-deliver__flow__item">
                 <div class="p-deliver__flow__item__img">
-                  <img src="assets/images/deliver_request_logo.png" alt="">
+                  <img src="assets/images/deliver_hearing_logo.png" alt="">
                 </div>
                 <div class="p-deliver__flow__item__name">
                   <p>ヒアリング（オンライン会議）</p>
@@ -2483,7 +2319,7 @@
               <!-- == ヒアリング（オンライン会議） == -->
               <div class="p-deliver__flow__item">
                 <div class="p-deliver__flow__item__img">
-                  <img src="assets/images/deliver_request_logo.png" alt="">
+                  <img src="assets/images/deliver_hearing_logo.png" alt="">
                 </div>
                 <div class="p-deliver__flow__item__name">
                   <p>ヒアリング（オンライン会議）</p>
@@ -3304,7 +3140,7 @@
               </div>
             </div>
             <div class="p-staff__profile__member">
-              <div class="p-staff__profile__member__img p-staff__profile__member__img__Narumi">
+              <div class="p-staff__profile__member__img p-staff__profile__member__img__narumi">
                 <img src="assets/images/staff_narumi_icon.png" alt="narumi">
               </div>
               <div class="p-staff__profile__member__body">
