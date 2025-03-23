@@ -33,18 +33,45 @@ $(function() {
     const target = $(this).data('target');
     $(target).addClass('open');
   });
+  $('.p-plan__btn').on('click', function() {
+    // 全てのボタンを非アクティブに戻す
+    $('.p-plan__btn').each(function() {
+        var originalSrc = $(this).find('img').attr('src').replace('_active', '');
+        $(this).find('img').attr('src', originalSrc);
+        $(this).removeClass('active');
+    });
+
+    // クリックされたボタンをアクティブにする
+    var $img = $(this).find('img');
+    var originalSrc = $img.attr('src');
+    var newSrc = originalSrc.replace('.png', '_active.png');
+    $img.attr('src', newSrc);
+    $(this).addClass('active');
+  });
 
   ////// feeセクションのコンテンツ切り替え機能 //////
   $('.p-fee__btn').on('click', function() {
     $('.p-fee__btn').removeClass('active');
-    // クリックされたボタンに 'active' クラスを付与
     $(this).addClass('active');
-    // すべての要素を非表示にする
     $('.p-fee__content').removeClass('open');
 
-    // クリックしたボタンに対応する要素を表示する
     const target = $(this).data('target');
     $(target).addClass('open');
+  });
+  $('.p-fee__btn').on('click', function() {
+    // 全てのボタンを非アクティブに戻す
+    $('.p-fee__btn').each(function() {
+        var originalSrc = $(this).find('img').attr('src').replace('_active', '');
+        $(this).find('img').attr('src', originalSrc);
+        $(this).removeClass('active');
+    });
+
+    // クリックされたボタンをアクティブにする
+    var $img = $(this).find('img');
+    var originalSrc = $img.attr('src');
+    var newSrc = originalSrc.replace('.png', '_active.png');
+    $img.attr('src', newSrc);
+    $(this).addClass('active');
   });
 
   ////// deliverセクションのコンテンツ切り替え機能 //////
@@ -80,9 +107,24 @@ $(function() {
     const target = $(this).data('target');
     $(target).addClass('open');
   });
+  $('.p-contact__btn').on('click', function() {
+    // 全てのボタンを非アクティブに戻す
+    $('.p-contact__btn').each(function() {
+        var originalSrc = $(this).find('img').attr('src').replace('_active', '');
+        $(this).find('img').attr('src', originalSrc);
+        $(this).removeClass('active');
+    });
+
+    // クリックされたボタンをアクティブにする
+    var $img = $(this).find('img');
+    var originalSrc = $img.attr('src');
+    var newSrc = originalSrc.replace('.png', '_active.png');
+    $img.attr('src', newSrc);
+    $(this).addClass('active');
+  });
 });
 
-//swiperの設定
+//top swiperの設定
 window.addEventListener("DOMContentLoaded", () => {
   const infiniteSlider = new Swiper(".infinite-slider", {
     centeredSlides: true,
@@ -95,6 +137,7 @@ window.addEventListener("DOMContentLoaded", () => {
       delay: 3000,
       disableOnInteraction: false,
     },
+    effect: 'slide'
   });
 });
 

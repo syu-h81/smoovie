@@ -22,6 +22,7 @@
   <!-- Import CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
   <!-- Import JS/jQuery Library -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
           integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -33,9 +34,9 @@
     <!--======== header ========-->
     <header class="l-header"> 
       <div class="l-header__container">
-        <div class="l-header__logo">
+        <a href="https://gravies.co.jp/" class="l-header__logo">
           <img src="assets/images/header_logo.png" alt="">
-        </div>
+        </a>
         <nav class="l-header__nav">
           <ul class="l-header__nav__list">
             <a href="#top" class="l-header__nav__link">
@@ -54,7 +55,7 @@
               <img src="assets/images/アセット 7@4x.png" alt="">
             </a>
             <a href="#qa" class="l-header__nav__link">
-              <img src="assets/images/アセット 10@4x.png" alt="">
+              <img src="assets/images/アセット 101@4x.png" alt="">
             </a>
             <a href="#staff" class="l-header__nav__link">
               <img src="assets/images/アセット 8@4x.png" alt="">
@@ -81,7 +82,7 @@
                   サンプル動画でイメージを共有しながら、<br>
                   リーズナブルな料金プランと信頼のクオリテイで<br>
                   スムーズな動画制作を実現する。<br>
-                  それがSmoovie！
+                  <span>それがSmoovie！</span>
                 </p>
               </div>
             </div>
@@ -91,33 +92,20 @@
           </div>
           <div class="p-top__cards">
             <a href="#service" class="p-top__card">
-              <div class="p-top__card__img">
-                <img src="assets/images/service_logo.png" alt="">
-              </div>
-              <div class="p-top__card__text">
-                <span>サービスの<br>特長を知る</span>
-              </div>
+              <img src="assets/images/top_card_img_01.png" alt="">
             </a>
             <a href="#plan" class="p-top__card">
-              <div class="p-top__card__img">
-                <img src="assets/images/plan_logo.png" alt="">
-              </div>
-              <div class="p-top__card__text">
-                <span>料金プランと<br>サンプルで<br>検討する</span>
-              </div>           
+              <img src="assets/images/top_card_img_02.png" alt="">        
             </a>
             <a href="#contact" class="p-top__card">
-              <div class="p-top__card__img">
-                <img src="assets/images/contact_logo.png" alt="">
-              </div>
-              <div class="p-top__card__text">
-                <span>とりあえず<br>相談する</span>
-              </div>           
+              <img src="assets/images/top_card_img_03.png" alt="">       
             </a>
           </div>
           <div class="p-top__swiper__heading">
-            <span>こんなとき</span>
-            <span>Smoovie！</span>
+            <div class="p-top__swiper__heading__inner">
+              <span>こんなとき</span>
+              <span>Smoovie！</span>
+            </div>
           </div>
           <!-- === swiperの実装　=== -->
           <div class="p-top__swiper swiper infinite-slider">
@@ -125,49 +113,32 @@
             <div class="p-top__swiper__wrapper swiper-wrapper">
               <!-- スライド -->
               <div class="p-top__swiper__slide swiper-slide">
-                <p>できるだけ<br><span class="u-color-primary u-font-bold">安く、パパッと</span><br>つくってほしい！</p>
+                <!--<p>できるだけ<br><span class="u-color-primary u-font-bold">安く、パパッと</span><br>つくってほしい！</p>-->
+                <img src="assets/images/swiper_img_01.png" alt="">
               </div>
               <div class="p-top__swiper__slide swiper-slide">
-                <p>フリーランスは<br>安いけど、<span class="u-color-primary u-font-bold">安心</span>できる<br>企業に依頼したい</p>
+                <!--<p>フリーランスは<br>安いけど、<span class="u-color-primary u-font-bold">安心</span>できる<br>企業に依頼したい</p>-->
+                <img src="assets/images/swiper_img_02.png" alt="">
               </div>
               <div class="p-top__swiper__slide swiper-slide">
-                <p>映像はあるから<br><span class="u-color-primary u-font-bold">字幕</span>と<span class="u-color-primary u-font-bold">編集</span>だけ<br>やってほしい</p>
+                <!--<p>映像はあるから<br><span class="u-color-primary u-font-bold">字幕</span>と<span class="u-color-primary u-font-bold">編集</span>だけ<br>やってほしい</p>-->
+                <img src="assets/images/swiper_img_03.png" alt="">
               </div>
               <div class="p-top__swiper__slide swiper-slide">
-                <p>イメージがないから<br><span class="u-color-primary u-font-bold">参考動画</span>をもとに<br>検討したい</p>
+                <!--<p>イメージがないから<br><span class="u-color-primary u-font-bold">参考動画</span>をもとに<br>検討したい</p>-->
+                <img src="assets/images/swiper_img_04.png" alt="">
               </div>
               <div class="p-top__swiper__slide swiper-slide">
-                <p>忙しいので<br>企画・構成も含めて<br><span class="u-color-primary u-font-bold">丸投げ</span>したい</p>
+                <!--<p>忙しいので<br>企画・構成も含めて<br><span class="u-color-primary u-font-bold">丸投げ</span>したい</p>-->
+                <img src="assets/images/swiper_img_05.png" alt="">
               </div>
               <div class="p-top__swiper__slide swiper-slide">
-                <p>簡易でいいから<br><span class="u-color-primary u-font-bold">商品撮影</span>して<br>ほしい</p>
+                <!--<p>簡易でいいから<br><span class="u-color-primary u-font-bold">商品撮影</span>して<br>ほしい</p>-->
+                <img src="assets/images/swiper_img_06.png" alt="">
               </div>
               <div class="p-top__swiper__slide swiper-slide">
-                <p><span class="u-color-primary u-font-bold">シリーズ</span>で<br>複数制作したいけど<br><span class="u-color-primary u-font-bold">割引</span>できる？</p>
-              </div>
-              <div class="p-top__swiper__slide swiper-slide">
-                <p>できるだけ<br><span class="u-color-primary u-font-bold">安く、パパッと</span><br>つくってほしい！</p>
-              </div>
-              <div class="p-top__swiper__slide swiper-slide">
-                <p>フリーランスは<br>安いけど、<span class="u-color-primary u-font-bold">安心</span>できる<br>企業に依頼したい</p>
-              </div>
-              <div class="p-top__swiper__slide swiper-slide">
-                <p>映像はあるから<br><span class="u-color-primary u-font-bold">字幕</span>と<span class="u-color-primary u-font-bold">編集</span>だけ<br>やってほしい</p>
-              </div>
-              <div class="p-top__swiper__slide swiper-slide">
-                <p>イメージがないから<br><span class="u-color-primary u-font-bold">参考動画</span>をもとに<br>検討したい</p>
-              </div>
-              <div class="p-top__swiper__slide swiper-slide">
-                <p>忙しいので<br>企画・構成も含めて<br><span class="u-color-primary u-font-bold">丸投げ</span>したい</p>
-              </div>
-              <div class="p-top__swiper__slide swiper-slide">
-                <p>簡易でいいから<br><span class="u-color-primary u-font-bold">商品撮影</span>して<br>ほしい</p>
-              </div>
-              <div class="p-top__swiper__slide swiper-slide">
-                <p><span class="u-color-primary u-font-bold">シリーズ</span>で<br>複数制作したいけど<br><span class="u-color-primary u-font-bold">割引</span>できる？</p>
-              </div>
-              <div class="p-top__swiper__slide swiper-slide">
-                <p>できるだけ<br><span class="u-color-primary u-font-bold">安く、パパッと</span><br>つくってほしい！</p>
+                <!--<p><span class="u-color-primary u-font-bold">シリーズ</span>で<br>複数制作したいけど<br><span class="u-color-primary u-font-bold">割引</span>できる？</p>-->
+                <img src="assets/images/swiper_img_07.png" alt="">
               </div>
             </div>
           </div>
@@ -231,9 +202,9 @@
               <div class="p-service__box__body">
                 <div class="p-service__box__body__flex">
                   <div class="p-service__box__body__text">
-                    <p>40数名の豊富なナレーターから１名を無料で起用できる！<br>しかも、期限なしの買取で！<br>※２人目以降は、10,000円/１名の追加料金で起用できます。</p>
+                    <p>40数名の豊富なナレーターから１名を無料で起用できる！<br>しかも、期限なしの買取で！<br><span>※２人目以降は、10,000円/１名の追加料金で起用できます。</span></p>
                   </div>
-                  <div class="p-service__box__body__img">
+                  <div class="p-service__box__body__img p-service__box__body__img__3">
                     <img src="assets/images/service_img_03.png" alt="">
                   </div>
                 </div>
@@ -251,7 +222,7 @@
                   <div class="p-service__box__body__text">
                     <p>数分の短い動画なら編集の１次提出は１-２週間程度。<br>納品まで最短で２週間程度の場合も！<br>※短納期での対応が必要の際は、一度ご相談ください。<br>※制作内容によってはお時間をいただく場合がございます</p>
                   </div>
-                  <div class="p-service__box__body__img">
+                  <div class="p-service__box__body__img p-service__box__body__img__4">
                     <img src="assets/images/service_img_04.png" alt="">
                   </div>
                 </div>
@@ -269,7 +240,7 @@
                   <div class="p-service__box__body__text">
                     <p>クリエイティブディレクター、動画エディターやデザイナーなど、<br>豊富な経験とスキルを持つスタッフ体制で安心して任せられます。</p>
                   </div>
-                  <div class="p-service__box__body__img">
+                  <div class="p-service__box__body__img p-service__box__body__img__5">
                     <img src="assets/images/service_img_05.png" alt="">
                   </div>
                 </div>
@@ -294,28 +265,28 @@
           </div>
           <div class="p-plan__btns">
             <div id="plan-A" class="p-plan__btn active" data-target="#content-A">
-              <span>A</span>
+              <img src="assets/images/plan_btn_A_active.png" alt="">
             </div>
             <div id="plan-B" class="p-plan__btn" data-target="#content-B">
-              <span>B</span>
+              <img src="assets/images/plan_btn_B.png" alt="">
             </div>
             <div id="plan-C" class="p-plan__btn" data-target="#content-C">
-              <span>C</span>
+              <img src="assets/images/plan_btn_C.png" alt="">
             </div>
             <div id="plan-D" class="p-plan__btn" data-target="#content-D">
-              <span>D</span>
+              <img src="assets/images/plan_btn_D.png" alt="">
             </div>
             <div id="plan-E" class="p-plan__btn" data-target="#content-E">
-              <span>E</span>
+              <img src="assets/images/plan_btn_E.png" alt="">
             </div>
             <div id="plan-F" class="p-plan__btn" data-target="#content-F">
-              <span>F</span>
+              <img src="assets/images/plan_btn_F.png" alt="">
             </div>
             <div id="plan-G" class="p-plan__btn" data-target="#content-G">
-              <span>G</span>
+              <img src="assets/images/plan_btn_G.png" alt="">
             </div>
             <div id="plan-H" class="p-plan__btn" data-target="#content-H">
-              <span>H</span>
+              <img src="assets/images/plan_btn_H.png" alt="">
             </div>
           </div>
           <div class="p-plan__contents">
@@ -323,7 +294,11 @@
             <div id="content-A" class="p-plan__content p-plan__content__A open">
               <div class="p-plan__content__border">
                 <div class="p-plan__content__border__border"></div>
-                <p>PLAN<span>A</span>(撮影なし)</p>
+                <div class="p-plan__content__border__heading">
+                  <span class="p-plan__content__border__heading__planText">PLAN</span>
+                  <span class="p-plan__content__border__heading__initial">A</span>
+                  <span class="p-plan__content__border__heading__notPhotographText">(撮影なし)</span>
+                </div>
                 <div class="p-plan__content__border__border"></div>
               </div>
               <div class="p-plan__content__heading">
@@ -341,7 +316,9 @@
                 <div class="p-plan__content__sample__list">
                   <span>SAMPLE</span>
                   <div class="p-plan__content__sample__list__border"></div>
-                  <a href="">サンプル一覧</a>
+                  <a href="">
+                    <img src="assets/images/plan_sample_btn.png" alt="">
+                  </a>
                 </div>
                 <div class="p-plan__content__sample__items__swiper__inner">
                   <div class="p-plan__content__sample__items swiper sample-slider">
@@ -430,7 +407,9 @@
                     <div class="p-plan__content__price__tables__heading">
                       <span>PRICE</span>
                       <div class="p-plan__content__price__tables__heading__border"></div>
-                      <a href="#fee">料金表</a>
+                      <a href="#fee">
+                        <img src="assets/images/plan_price_btn.png" alt="">
+                      </a>
                     </div>
                     <table class="p-plan__content__price__tables__table">
                       <thead class="p-plan__content__price__tables__table__thead">
@@ -453,34 +432,8 @@
                       </tr>
                     </table>
                   </div>
-                  <div class="p-plan__content__price__service">
-                    <div class="p-plan__content__price__service__heading">本プランに含むサービス</div>
-                    <div class="p-plan__content__price__service__items">
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_01.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>NA・セリフ<br>字幕挿入</p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_02.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ナレーター<br><span class="u-color-primary">1名</span>起用</p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_03.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ロイヤリティ・<br>フリー<span class="u-color-primary">楽曲</span></p>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="p-plan__content__price__service p-plan__content__price__service__ABD">
+                    <img src="assets/images/plan_service_ABD.png" alt="">
                   </div>
                 </div>
                 <div class="p-plan__content__price__supplyment">
@@ -496,7 +449,11 @@
             <div id="content-B" class="p-plan__content p-plan__content__B">
               <div class="p-plan__content__border">
                 <div class="p-plan__content__border__border"></div>
-                <p>PLAN<span>B</span>(撮影なし)</p>
+                <div class="p-plan__content__border__heading">
+                  <span class="p-plan__content__border__heading__planText">PLAN</span>
+                  <span class="p-plan__content__border__heading__initial">B</span>
+                  <span class="p-plan__content__border__heading__notPhotographText">(撮影なし)</span>
+                </div>
                 <div class="p-plan__content__border__border"></div>
               </div>
               <div class="p-plan__content__heading">
@@ -514,7 +471,9 @@
                 <div class="p-plan__content__sample__list">
                   <span>SAMPLE</span>
                   <div class="p-plan__content__sample__list__border"></div>
-                  <a href="">サンプル一覧</a>
+                  <a href="">
+                    <img src="assets/images/plan_sample_btn.png" alt="">
+                  </a>
                 </div>
                 <div class="p-plan__content__sample__items__swiper__inner">
                   <div class="p-plan__content__sample__items swiper sample-slider">
@@ -603,7 +562,9 @@
                     <div class="p-plan__content__price__tables__heading">
                       <span>PRICE</span>
                       <div class="p-plan__content__price__tables__heading__border"></div>
-                      <a href="#fee">料金表</a>
+                      <a href="#fee">
+                        <img src="assets/images/plan_price_btn.png" alt="">
+                      </a>
                     </div>
                     <table class="p-plan__content__price__tables__table">
                       <thead class="p-plan__content__price__tables__table__thead">
@@ -626,34 +587,8 @@
                       </tr>
                     </table>
                   </div>
-                  <div class="p-plan__content__price__service">
-                    <div class="p-plan__content__price__service__heading">本プランに含むサービス</div>
-                    <div class="p-plan__content__price__service__items">
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_01.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>NA・セリフ<br>字幕挿入</p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_02.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ナレーター<br><span class="u-color-primary">1名</span>起用</p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_03.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ロイヤリティ・<br>フリー<span class="u-color-primary">楽曲</span></p>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="p-plan__content__price__service p-plan__content__price__service__ABD">
+                    <img src="assets/images/plan_service_ABD.png" alt="">
                   </div>
                 </div>
                 <div class="p-plan__content__price__supplyment">
@@ -668,7 +603,11 @@
             <div id="content-C" class="p-plan__content p-plan__content__C">
               <div class="p-plan__content__border">
                 <div class="p-plan__content__border__border"></div>
-                <p>PLAN<span>C</span>(撮影なし)</p>
+                <div class="p-plan__content__border__heading">
+                  <span class="p-plan__content__border__heading__planText">PLAN</span>
+                  <span class="p-plan__content__border__heading__initial">C</span>
+                  <span class="p-plan__content__border__heading__notPhotographText">(撮影なし)</span>
+                </div>
                 <div class="p-plan__content__border__border"></div>
               </div>
               <div class="p-plan__content__heading">
@@ -686,7 +625,9 @@
                 <div class="p-plan__content__sample__list">
                   <span>SAMPLE</span>
                   <div class="p-plan__content__sample__list__border"></div>
-                  <a href="">サンプル一覧</a>
+                  <a href="">
+                    <img src="assets/images/plan_sample_btn.png" alt="">
+                  </a>
                 </div>
                 <div class="p-plan__content__sample__items__swiper__inner">
                   <div class="p-plan__content__sample__items swiper sample-slider">
@@ -775,7 +716,9 @@
                     <div class="p-plan__content__price__tables__heading">
                       <span>PRICE</span>
                       <div class="p-plan__content__price__tables__heading__border"></div>
-                      <a href="#fee">料金表</a>
+                      <a href="#fee">
+                        <img src="assets/images/plan_price_btn.png" alt="">
+                      </a>
                     </div>
                     <table class="p-plan__content__price__tables__table">
                       <thead class="p-plan__content__price__tables__table__thead p-plan__content__price__tables__table__thead__4">
@@ -818,7 +761,11 @@
             <div id="content-D" class="p-plan__content p-plan__content__A">
               <div class="p-plan__content__border">
                 <div class="p-plan__content__border__border"></div>
-                <p>PLAN<span>D</span>(撮影なし)</p>
+                <div class="p-plan__content__border__heading">
+                  <span class="p-plan__content__border__heading__planText">PLAN</span>
+                  <span class="p-plan__content__border__heading__initial">D</span>
+                  <span class="p-plan__content__border__heading__notPhotographText">(撮影なし)</span>
+                </div>
                 <div class="p-plan__content__border__border"></div>
               </div>
               <div class="p-plan__content__heading">
@@ -836,7 +783,9 @@
                 <div class="p-plan__content__sample__list">
                   <span>SAMPLE</span>
                   <div class="p-plan__content__sample__list__border"></div>
-                  <a href="">サンプル一覧</a>
+                  <a href="">
+                    <img src="assets/images/plan_sample_btn.png" alt="">
+                  </a>
                 </div>
                 <div class="p-plan__content__sample__items__swiper__inner">
                   <div class="p-plan__content__sample__items swiper sample-slider">
@@ -925,7 +874,9 @@
                     <div class="p-plan__content__price__tables__heading">
                       <span>PRICE</span>
                       <div class="p-plan__content__price__tables__heading__border"></div>
-                      <a href="#fee">料金表</a>
+                      <a href="#fee">
+                        <img src="assets/images/plan_price_btn.png" alt="">
+                      </a>
                     </div>
                     <table class="p-plan__content__price__tables__table">
                       <thead class="p-plan__content__price__tables__table__thead p-plan__content__price__tables__table__thead__4">
@@ -952,34 +903,8 @@
                       </tr>
                     </table>
                   </div>
-                  <div class="p-plan__content__price__service">
-                    <div class="p-plan__content__price__service__heading">本プランに含むサービス</div>
-                    <div class="p-plan__content__price__service__items">
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_01.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>NA・セリフ<br>字幕挿入</p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_02.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ナレーター<br><span class="u-color-primary">1名</span>起用</p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_03.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ロイヤリティ・<br>フリー<span class="u-color-primary">楽曲</span></p>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="p-plan__content__price__service p-plan__content__price__service__ABD">
+                    <img src="assets/images/plan_service_ABD.png" alt="">
                   </div>
                 </div>
                 <div class="p-plan__content__price__supplyment">
@@ -992,9 +917,13 @@
             </div>
             <!-- === PLAN-E === -->
             <div id="content-E" class="p-plan__content p-plan__content__E">
-              <div class="p-plan__content__border p-plan__content__border__subColor">
+              <div class="p-plan__content__border p-plan__content__border">
                 <div class="p-plan__content__border__border"></div>
-                <p>PLAN<span>E</span>(撮影なし)</p>
+                <div class="p-plan__content__border__heading">
+                  <span class="p-plan__content__border__heading__planText">PLAN</span>
+                  <span class="p-plan__content__border__heading__initial">E</span>
+                  <span class="p-plan__content__border__heading__notPhotographText">(撮影なし)</span>
+                </div>
                 <div class="p-plan__content__border__border"></div>
               </div>
               <div class="p-plan__content__heading">
@@ -1012,7 +941,9 @@
                 <div class="p-plan__content__sample__list">
                   <span>SAMPLE</span>
                   <div class="p-plan__content__sample__list__border"></div>
-                  <a href="">サンプル一覧</a>
+                  <a href="">
+                    <img src="assets/images/plan_sample_btn.png" alt="">
+                  </a>
                 </div>
                 <div class="p-plan__content__sample__items__swiper__inner">
                   <div class="p-plan__content__sample__items swiper sample-slider">
@@ -1101,7 +1032,9 @@
                     <div class="p-plan__content__price__tables__heading">
                       <span>PRICE</span>
                       <div class="p-plan__content__price__tables__heading__border"></div>
-                      <a href="#fee">料金表</a>
+                      <a href="#fee">
+                        <img src="assets/images/plan_price_btn.png" alt="">
+                      </a>
                     </div>
                     <table class="p-plan__content__price__tables__table">
                       <thead class="p-plan__content__price__tables__table__thead p-plan__content__price__tables__table__thead__4">
@@ -1128,34 +1061,8 @@
                       </tr>
                     </table>
                   </div>
-                  <div class="p-plan__content__price__service">
-                    <div class="p-plan__content__price__service__heading">本プランに含むサービス</div>
-                    <div class="p-plan__content__price__service__items">
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_01.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>NA・セリフ<br>字幕挿入</p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_02.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ナレーター<br><span class="u-color-primary">1名</span>起用</p>
-                        </div>
-                      </div>
-                      <div class="p-plan__content__price__service__item">
-                        <div class="p-plan__content__price__service__item__img">
-                          <img src="assets/images/plan_service_logo_03.png" alt="">
-                        </div>
-                        <div class="p-plan__content__price__service__item__name">
-                          <p>ロイヤリティ・<br>フリー<span class="u-color-primary">楽曲</span></p>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="p-plan__content__price__service p-plan__content__price__service__ABD">
+                    <img src="assets/images/plan_service_ABD.png" alt="">
                   </div>
                 </div>
                 <div class="p-plan__content__price__supplyment">
@@ -1171,7 +1078,11 @@
             <div id="content-F" class="p-plan__content p-plan__content__F">
               <div class="p-plan__content__border p-plan__content__border__subColor">
                 <div class="p-plan__content__border__border"></div>
-                <p>PLAN<span>F</span>(撮影なし)</p>
+                <div class="p-plan__content__border__heading">
+                  <span class="p-plan__content__border__heading__planText">PLAN</span>
+                  <span class="p-plan__content__border__heading__initial">F</span>
+                  <span class="p-plan__content__border__heading__notPhotographText">(撮影あり)</span>
+                </div>
                 <div class="p-plan__content__border__border"></div>
               </div>
               <div class="p-plan__content__heading p-plan__content__heading__subColor">
@@ -1189,7 +1100,9 @@
                 <div class="p-plan__content__sample__list">
                   <span class="u-color-primary-2">SAMPLE</span>
                   <div class="p-plan__content__sample__list__border p-plan__content__sample__list__border__subColor u-color-primary-2"></div>
-                  <a href="" class="u-color-primary-2 u-subColor-btn">サンプル一覧</a>
+                  <a href="#fee">
+                    <img src="assets/images/plan_sample_btn_subColor.png" alt="">
+                  </a>
                 </div>
                 <div class="p-plan__content__sample__items__swiper__inner">
                   <div class="p-plan__content__sample__items swiper sample-slider">
@@ -1278,7 +1191,9 @@
                     <div class="p-plan__content__price__tables__heading">
                       <span class="u-color-primary-2">PRICE</span>
                       <div class="p-plan__content__price__tables__heading__border p-plan__content__price__tables__heading__border__subColor"></div>
-                      <a href="#fee" class="u-subColor-btn">料金表</a>
+                      <a href="#fee">
+                        <img src="assets/images/plan_price_btn_subColor.png" alt="">
+                      </a>
                     </div>
                     <table class="p-plan__content__price__tables__table">
                       <thead class="p-plan__content__price__tables__table__thead p-plan__content__price__tables__table__thead__4 p-plan__content__price__tables__table__thead__subColor">
@@ -1322,7 +1237,11 @@
             <div id="content-G" class="p-plan__content p-plan__content__F">
               <div class="p-plan__content__border p-plan__content__border__subColor">
                 <div class="p-plan__content__border__border"></div>
-                <p>PLAN<span>G</span>(撮影なし)</p>
+                <div class="p-plan__content__border__heading">
+                  <span class="p-plan__content__border__heading__planText">PLAN</span>
+                  <span class="p-plan__content__border__heading__initial">G</span>
+                  <span class="p-plan__content__border__heading__notPhotographText">(撮影あり)</span>
+                </div>
                 <div class="p-plan__content__border__border"></div>
               </div>
               <div class="p-plan__content__heading p-plan__content__heading__subColor">
@@ -1340,7 +1259,9 @@
                 <div class="p-plan__content__sample__list">
                   <span class="u-color-primary-2">SAMPLE</span>
                   <div class="p-plan__content__sample__list__border p-plan__content__sample__list__border__subColor u-color-primary-2"></div>
-                  <a href="" class="u-color-primary-2 u-subColor-btn">サンプル一覧</a>
+                  <a href="#fee">
+                    <img src="assets/images/plan_sample_btn_subColor.png" alt="">
+                  </a>
                 </div>
                 <div class="p-plan__content__sample__items__swiper__inner">
                   <div class="p-plan__content__sample__items swiper sample-slider">
@@ -1429,7 +1350,9 @@
                     <div class="p-plan__content__price__tables__heading">
                       <span class="u-color-primary-2">PRICE</span>
                       <div class="p-plan__content__price__tables__heading__border p-plan__content__price__tables__heading__border__subColor"></div>
-                      <a href="#fee" class="u-subColor-btn">料金表</a>
+                      <a href="#fee">
+                        <img src="assets/images/plan_price_btn_subColor.png" alt="">
+                      </a>
                     </div>
                     <table class="p-plan__content__price__tables__table">
                       <thead class="p-plan__content__price__tables__table__thead p-plan__content__price__tables__table__thead__4 p-plan__content__price__tables__table__thead__subColor">
@@ -1473,7 +1396,11 @@
             <div id="content-H" class="p-plan__content p-plan__content__F">
               <div class="p-plan__content__border p-plan__content__border__subColor">
                 <div class="p-plan__content__border__border"></div>
-                <p>PLAN<span>H</span>(撮影なし)</p>
+                <div class="p-plan__content__border__heading">
+                  <span class="p-plan__content__border__heading__planText">PLAN</span>
+                  <span class="p-plan__content__border__heading__initial">H</span>
+                  <span class="p-plan__content__border__heading__notPhotographText">(撮影あり)</span>
+                </div>
                 <div class="p-plan__content__border__border"></div>
               </div>
               <div class="p-plan__content__heading p-plan__content__heading__subColor">
@@ -1562,8 +1489,12 @@
             <h2 class="c-heading">オプション料金</h2>
           </div>
           <div class="p-fee__btns">
-            <button id="fee-btn" class="p-fee__btn active" data-target="#fee-content">料金プラン</button>
-            <button id="option-fee-btn" class="p-fee__btn" data-target="#option-content">オプションプラン</button>
+            <button id="fee-btn" class="p-fee__btn active" data-target="#fee-content">
+              <img src="assets/images/fee_btn_01.png" alt="">
+            </button>
+            <button id="option-fee-btn" class="p-fee__btn" data-target="#option-content">
+              <img src="assets/images/fee_btn_02.png" alt="">
+            </button>
           </div>
           <!-- == 料金プランのコンテンツ == -->
           <div id="fee-content" class="p-fee__content open">
@@ -1630,7 +1561,7 @@
                   </div>
                 </div>
                 <div class="p-fee__content__edit__ele__BC__last__amounts">
-                  <div class="p-fee__content__edit__ele__BC__last__amount">＋<span>5</span>万円</div>
+                  <div class="p-fee__content__edit__amount p-fee__content__edit__amount__BC">＋<span class="u-color-primary">5</span>万円</div>
                 </div>
               </div>
               <div class="p-fee__content__edit__ele__D">
@@ -1735,7 +1666,7 @@
                   </div>
                 </div>
                 <div class="p-fee__content__photograph__ele__FG__last__amounts">
-                  <div class="p-fee__content__photograph__ele__FG__last__amount">＋<span>15</span>万円</div>
+                  <div class="p-fee__content__photograph__ele__FG__last__amount">＋<span class="u-color-primary">15</span>万円</div>
                 </div>
               </div>
             </div>
@@ -1744,8 +1675,8 @@
                 <div class="p-fee__content__customize__heading p-fee__content__heading">
                   <strong>カスタマイズ制作</strong>
                 </div>
-                <div class="p-fee__content__length">
-                  <div class="p-fee__content__customize__length__heading p-fee__content__length__heading">
+                <div class="p-fee__content__length p-fee__content__length__customize">
+                  <div class="p-fee__content__length__heading__customize p-fee__content__length__heading">
                     <span>完成動画の総尺:個別にご設定</span>
                   </div>
                 </div>
@@ -1804,12 +1735,7 @@
             </div>
             <div class="p-fee__content__discount">
               <div class="p-fee__content__discount__heading">
-                <div class="p-fee__content__discount__heading__img">
-                  <img src="assets/images/fee_discount_img_01.png" alt="">
-                </div>
-                <div class="p-fee__content__discount__heading__text">
-                  <p>シリーズ<br><span>割引</span></p>
-                </div>
+                <img src="assets/images/fee_discount_heading.png" alt="">
               </div>
               <div class="p-fee__content__discount__body">
                 <div class="p-fee__content__discount__body__desc">
@@ -1849,7 +1775,7 @@
                   <div class="p-fee__content__discount__body__numbers">
                     <div class="p-fee__content__discount__body__number">
                       <span class="p-fee__content__discount__body__number__pieces">5本目以降</span>
-                      <span class="p-fee__content__discount__body__number__unit">25<span>%</span></span>
+                      <span class="p-fee__content__discount__body__number__unit"><span>各</span>25<span>%</span></span>
                     </div>
                     <div class="p-fee__content__discount__body__number__img">
                       <img src="assets/images/fee_discount_img_02.png" alt="">
@@ -1930,12 +1856,12 @@
                 <!-- === ロイヤリティフリー動画 === -->
                 <tr class="p-fee__optionContent__tr">
                   <td class="p-fee__optionContent__td">ロイヤリティフリー動画</td>
-                  <td class="p-fee__optionContent__td">15,000 円 /1 点</td>
+                  <td class="p-fee__optionContent__td u-fontWeight-bold">15,000 円 /1 点</td>
                 </tr>
                 <!-- === ロイヤリティフリー音源 === -->
                 <tr class="p-fee__optionContent__tr">
                   <td class="p-fee__optionContent__td">ロイヤリティフリー音源</td>
-                  <td class="p-fee__optionContent__td">
+                  <td class="p-fee__optionContent__td u-fontWeight-bold">
                     5,000 円 /1 点<br>
                     <span class="p-fee__optionContent__td__cost__supplyment">※SE など短い音源：2,000 円 /1 点</span>
                   </td>
@@ -2132,20 +2058,20 @@
               </div>
             </div>
             <div id="production-flow-btn" class="p-deliver__btn" data-target="#production-flow">
-              <div class="p-deliver__btn__img">
+              <div class="p-deliver__btn__img p-deliver__btn__img__2">
                 <img src="assets/images/deliver_btn_img_02.png" alt="">
               </div>
               <div class="p-deliver__btn__text p-deliver__btn__text__production">
-                <p><span>「制作あり」</span>制作の流れ</p>
+                <p><span>「映像あり」</span>制作の流れ</p>
               </div>
             </div>
           </div>
           <!-- === 「編集のみ」制作の流れの納品フロー === -->
-          <div id="edit-flow" class="p-deliver__flow p-deliver__editOnly__flow open">
+          <div id="edit-flow" class="p-deliver__flow p-deliver__flow__editOnly open">
             <div class="p-deliver__flow__body">
               <!-- == ご依頼 == -->
               <div class="p-deliver__flow__item">
-                <div class="p-deliver__flow__item__img">
+                <div class="p-deliver__flow__item__img p-deliver__flow__item__img__request">
                   <img src="assets/images/deliver_request_logo.png" alt="">
                 </div>
                 <div class="p-deliver__flow__item__name">
@@ -2176,7 +2102,7 @@
               </div>
               <!-- == お見積もり == -->
               <div class="p-deliver__flow__item">
-                <div class="p-deliver__flow__item__img">
+                <div class="p-deliver__flow__item__img p-deliver__flow__item__img__estimate">
                   <img src="assets/images/estimate_logo.png" alt="">
                 </div>
                 <div class="p-deliver__flow__item__name">
@@ -2299,12 +2225,12 @@
               </div>
             </div>
           </div>
-          <!-- === 「制作あり」制作の流れの納品フロー === -->
-          <div id="production-flow" class="p-deliver__flow p-deliver__addProduction__flow">
+          <!-- === 「映像あり」制作の流れの納品フロー === -->
+          <div id="production-flow" class="p-deliver__flow p-deliver__flow__addProduction">
             <div class="p-deliver__flow__body">
               <!-- == ご依頼 == -->
               <div class="p-deliver__flow__item">
-                <div class="p-deliver__flow__item__img">
+                <div class="p-deliver__flow__item__img p-deliver__flow__item__img__request">
                   <img src="assets/images/deliver_request_logo.png" alt="">
                 </div>
                 <div class="p-deliver__flow__item__name">
@@ -2335,7 +2261,7 @@
               </div>
               <!-- == お見積もり == -->
               <div class="p-deliver__flow__item">
-                <div class="p-deliver__flow__item__img">
+                <div class="p-deliver__flow__item__img p-deliver__flow__item__img__estimate">
                   <img src="assets/images/estimate_logo.png" alt="">
                 </div>
                 <div class="p-deliver__flow__item__name">
@@ -2471,13 +2397,13 @@
                     <span class="p-deliver__flow__schedule__heading__span__primaryColor">少</span>
                   </div>
                 </div>
-                <div class="p-deliver__flow__schedule__first">
+                <div class="p-deliver__flow__schedule__first p-deliver__flow__schedule__first__production">
                   <p>１〜２週間程度</p>
                 </div>
                 <div class="p-deliver__flow__schedule__middle">
                   <p>１週間程度</p>
                 </div>
-                <div class="p-deliver__flow__schedule__last">
+                <div class="p-deliver__flow__schedule__last p-deliver__flow__schedule__last__production">
                   <p>１〜２週間程度</p>
                 </div>
               </div>
@@ -2492,13 +2418,13 @@
                     <span class="p-deliver__flow__schedule__heading__span__subColor">多</span>
                   </div>
                 </div>
-                <div class="p-deliver__flow__schedule__first">
+                <div class="p-deliver__flow__schedule__first p-deliver__flow__schedule__first__production">
                   <p>2〜3週間程度</p>
                 </div>
-                <div class="p-deliver__flow__schedule__middle">
+                <div class="p-deliver__flow__schedule__middle p-deliver__flow__schedule__middle__production">
                   <p>１〜２週間程度</p>
                 </div>
-                <div class="p-deliver__flow__schedule__last">
+                <div class="p-deliver__flow__schedule__last p-deliver__flow__schedule__last__production">
                   <p>2〜3週間程度</p>
                 </div>
               </div>
@@ -2525,99 +2451,10 @@
           </div>
           <div class="p-cancel__cards">
             <div class="p-cancel__card__notPhotograph p-cancel__card">
-              <div class="p-cancel__card__heading">
-                <p><span class="u-color-primary">撮影なし</span>での制作の場合</p>
-              </div>
-              <div class="p-cancel__card__bodys">
-                <div class="p-cancel__card__body">
-                  <div class="p-cancel__card__body__text">
-                    <p>原稿・構成の提出後</p>
-                  </div>
-                  <div class="p-cancel__card__body__arrow"></div>
-                  <div class="p-cancel__card__body__subText">
-                    <p>見積金額の<span>20</span>%</p>
-                  </div>
-                </div>
-                <div class="p-cancel__card__body">
-                  <div class="p-cancel__card__body__text">
-                    <p>第一次編集の提出後</p>
-                  </div>
-                  <div class="p-cancel__card__body__arrow"></div>
-                  <div class="p-cancel__card__body__subText">
-                    <p>見積金額の<span>60</span>%</p>
-                  </div>
-                </div>
-                <div class="p-cancel__card__body">
-                  <div class="p-cancel__card__body__text">
-                    <p>第二次編集の提出後</p>
-                  </div>
-                  <div class="p-cancel__card__body__arrow"></div>
-                  <div class="p-cancel__card__body__subText">
-                    <p>見積金額の<span>80</span>%</p>
-                  </div>
-                </div>
-                <div class="p-cancel__card__body">
-                  <div class="p-cancel__card__body__text">
-                    <p>ナレーション収録後</p>
-                  </div>
-                  <div class="p-cancel__card__body__arrow"></div>
-                  <div class="p-cancel__card__body__subText">
-                    <p>見積金額の<span>100</span>%</p>
-                  </div>
-                </div>
-              </div>
+              <img src="assets/images/cancel_card_img.png" alt="">
             </div>
             <div class="p-cancel__card__photograph p-cancel__card">
-              <div class="p-cancel__card__heading p-cancel__card__heading__photograph">
-                <p><span class="u-color-primary-2">撮影あり</span>での制作の場合</p>
-              </div>
-              <div class="p-cancel__card__bodys p-cancel__card__bodys__photograph">
-                <div class="p-cancel__card__body p-cancel__card__body__photograph">
-                  <div class="p-cancel__card__body__text p-cancel__card__body__text__photograph">
-                    <p>原稿・構成・撮影プランの提出後</p>
-                  </div>
-                  <div class="p-cancel__card__body__arrow"></div>
-                  <div class="p-cancel__card__body__subText p-cancel__card__body__subText__subColor">
-                    <p>見積金額の<span>20</span>%</p>
-                  </div>
-                </div>
-                <div class="p-cancel__card__body p-cancel__card__body__photograph">
-                  <div class="p-cancel__card__body__text p-cancel__card__body__text__photograph">
-                    <p>撮影直前（〜3日前まで）</p>
-                  </div>
-                  <div class="p-cancel__card__body__arrow"></div>
-                  <div class="p-cancel__card__body__subText p-cancel__card__body__subText__subColor">
-                    <p>見積金額の<span>40</span>%</p>
-                  </div>
-                </div>
-                <div class="p-cancel__card__body p-cancel__card__body__photograph">
-                  <div class="p-cancel__card__body__text p-cancel__card__body__text__photograph">
-                    <p>撮影後</p>
-                  </div>
-                  <div class="p-cancel__card__body__arrow"></div>
-                  <div class="p-cancel__card__body__subText p-cancel__card__body__subText__subColor">
-                    <p>見積金額の<span>60</span>%</p>
-                  </div>
-                </div>
-                <div class="p-cancel__card__body p-cancel__card__body__photograph">
-                  <div class="p-cancel__card__body__text p-cancel__card__body__text__photograph">
-                    <p>第一次編集の提出後</p>
-                  </div>
-                  <div class="p-cancel__card__body__arrow"></div>
-                  <div class="p-cancel__card__body__subText p-cancel__card__body__subText__subColor">
-                    <p>見積金額の<span>80</span>%</p>
-                  </div>
-                </div>
-                <div class="p-cancel__card__body p-cancel__card__body__photograph">
-                  <div class="p-cancel__card__body__text p-cancel__card__body__text__photograph">
-                    <p>ナレーション収録以降</p>
-                  </div>
-                  <div class="p-cancel__card__body__arrow"></div>
-                  <div class="p-cancel__card__body__subText p-cancel__card__body__subText__subColor">
-                    <p>見積金額の<span>100</span>%</p>
-                  </div>
-                </div>
-              </div>
+              <img src="assets/images/cancel_card_img_02.png" alt="">
             </div>
           </div>
           <div class="p-cancel__supplyment">
@@ -3100,7 +2937,7 @@
               </div>
               <div class="p-staff__profile__member__body">
                 <h3>ムービーエディター／デザイナー</h3>
-                <p>初期メンバーとして<br>動画とグラフィックの二刀流で活躍。<br>育休から 25 年春に復帰</p>
+                <p>初期メンバーとして<br>動画とグラフィックの二刀流で活躍。<br>育休から 25 年春に復帰。</p>
               </div>
             </div>
             <div class="p-staff__profile__member">
@@ -3194,10 +3031,10 @@
           </div>
           <div class="p-contact__btns">
             <div class="p-contact__btn active" data-target="#contact-form">
-              <p>とりあえず問合せや<br>相談をしたいお客さま</p>
+              <img src="assets/images/contact_btn_01.png" alt="">
             </div>
             <div class="p-contact__btn" data-target="#estimate-form">
-              <p>お見積もりをご希望の<br>お客さま</p>
+            <img src="assets/images/contact_btn_02.png" alt="">
             </div>
           </div>
           <div class="p-contact__forms">
@@ -3282,7 +3119,9 @@
                     <span>希望しない</span>
                   </div>
                 </div>
-                <div class="p-contact__form__arrow"></div>
+                <div class="p-contact__form__arrow">
+                  <img src="assets/images/contact_arrow_icon.png" alt="">
+                </div>
                 <div class="p-contact__form__text p-contact__form__text__schedule">
                   <p>オンライン・ミーティング希望日時（第三希望まで御入力ください）</p>
                 </div>
@@ -3818,7 +3657,9 @@
                     <span>希望しない</span>
                   </div>
                 </div>
-                <div class="p-contact__form__arrow"></div>
+                <div class="p-contact__form__arrow">
+                  <img src="assets/images/contact_arrow_icon.png" alt="">
+                </div>
                 <div class="p-contact__form__text p-contact__form__text__schedule">
                   <p>オンライン・ミーティング希望日時（第三希望まで御入力ください）</p>
                 </div>
