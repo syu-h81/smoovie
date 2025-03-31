@@ -70,6 +70,14 @@ module.exports = {
       template: './src/index.php',
       filename: './index.php',
     }),
+    new HtmlWebpackPlugin({ //htmlファイルを出力する場合に新しく追加する
+      template: './src/contact-list.php',
+      filename: './contact-list.php',
+    }),
+    new HtmlWebpackPlugin({ //htmlファイルを出力する場合に新しく追加する
+      template: './src/mailform.php',
+      filename: './mailform.php',
+    }),
     //PHPファイル、画像ファイルの出力
     new CopyWebpackPlugin({
       patterns: [

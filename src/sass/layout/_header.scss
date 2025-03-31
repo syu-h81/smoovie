@@ -1,15 +1,14 @@
 @use "../global" as g;
 
 .l-header {
+  background-color: g.$color-bg;
   &__container {
-    background-color: g.$color-bg;
     padding: 0 40px;
     padding-top: 40px;
     gap: 40px;
     position: relative;
   }
   &__logo {
-    background-color: g.$color-bg;
     position: absolute;
     left: 8vw;
     bottom: 0;
@@ -30,6 +29,7 @@
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       position: relative;
       z-index: 1;
+      width: 6vw;
       &:hover {
         transform: scale(1.1); /* 少し拡大 */
       }

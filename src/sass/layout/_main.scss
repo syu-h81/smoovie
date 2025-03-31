@@ -1,5 +1,23 @@
 @use "../global" as g;
 
+
+  .t {
+    position: absolute; /* または relative でも可 */
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/hero_img.png); /* 三角形の画像 */
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover; /* or cover */
+    z-index: 1; /* 背景として配置 */
+  }
+
+  .bg-color {
+    background-color: g.$color-bg;
+  }
+
 .p {
   &-top {
     background-color: g.$color-bg;
@@ -13,22 +31,30 @@
         width: fit-content;
         position: relative;
         z-index: 1;
-        img {
-          width: 52vw;
-        }
+        width: 60%;
       }
       &__text {
         font-size: 1.25vw;
         font-weight: bold;
-        line-height: clamp(2.063rem, 0.658rem + 2.926vw, 3.438rem);
+        letter-spacing: 2px;
+        //line-height: 53px;
+        line-height: clamp(2.063rem, 0.658rem + 2.926vw, 5.438rem);
         padding-top: 20px;
         position: relative;
         z-index: 1;
+        @include g.mq(xl) {
+          line-height: 3vw;
+          font-size: 1vw;
+        }
         p {
           span {
-            font-size: 1.7vw;
+            font-size: 1.75rem;
             font-weight: bold;
-            line-height: clamp(2.063rem, 0.658rem + 2.926vw, 3.438rem);
+            line-height: 53px;
+            @include g.mq(xl) {
+              font-size: 1.5vw;
+              line-height: 30px;
+            }
           }
         }
       }
@@ -58,6 +84,7 @@
     //swiperのcss
     &__swiper {
       padding: 70px 0;
+      height: fit-content;
       &__heading {
         padding-top: 40px;
         position: relative;
@@ -101,7 +128,8 @@
       &__slide {
         transform: scale(0.8)!important;
         transition: all 0.3s ease;
-        flex-shrink: 0!important; /* 幅が縮まないようにする */
+        //flex-shrink: 0!important; /* 幅が縮まないようにする */
+        //height: 200px;
         &.swiper-slide-active {
           opacity: 1;
           transform: scale(1.3)!important;
@@ -302,7 +330,12 @@
           padding: 40px 0;
           &__img {
             img {
-              height: 140px;
+              height: 120px;
+            }
+            &__D {
+              img {
+                height: 110px;
+              }
             }
           }
           &__text {
@@ -319,13 +352,17 @@
                 border: 2px solid g.$color-primary-2;
                 border-radius: 6px;
                 color: g.$color-primary-2;
-                font-size: 1.25rem;
+                font-size: 1.5rem;
                 font-weight: bold;
                 padding: 0 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 70px;
               }
               span {
                 font-size: 1rem;
-                line-height: 33px;
+                line-height: 27px;
               }
             }
           }
@@ -337,7 +374,7 @@
         margin-top: -60px;
         padding-top: 70px;
         &__list {
-          max-width: 1180px;
+          max-width: 1000px;
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -361,13 +398,14 @@
           }
         }
         &__items {
-          max-width: 1200px;
+          max-width: 900px;
           margin: 0 auto;
           padding-top: 40px;
           &__swiper__inner {
             position: relative;
             max-width: 1200px;
             margin: 0 auto;
+            height: fit-content;
           }
           &__inner {
             display: flex;
@@ -400,14 +438,21 @@
           &__beside {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 40px;
           }
         }
         //swiper ナビゲーションのcss
         .swiper-button-prev {
           top: 30%!important;
-          left: -50px !important;
+          left: 100px !important;
           color: g.$color-primary;
+          &__B {
+            top: 25%!important;
+          }
+          &__C,
+          &__E {
+            top: 48%!important;
+          }
           &::after {
             content: '';
             font-size: 1rem;
@@ -420,8 +465,15 @@
         }
         .swiper-button-next {
           top: 30%!important;
-          right: -50px !important;
+          right: 100px !important;
           color: g.$color-primary;
+          &__B {
+            top: 25%!important;
+          }
+          &__C,
+          &__E {
+            top: 48%!important;
+          }
           &::after {
             content: '';
             background-image: url(../images/plan_swiper_btn_next.png);
@@ -549,7 +601,7 @@
         background-color: #fff;
         padding: 60px 0;
         &__flex {
-          max-width: 1180px;
+          max-width: 1040px;
           margin: 0 auto;
           display: flex;
           justify-content: space-between;
@@ -559,6 +611,7 @@
           &__heading {
             background-color: #fff;
             border: 2px solid g.$color-primary-2;
+            font-size: 1.25rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -590,6 +643,7 @@
           &__heading {
             background-color: #fff;
             border: 2px solid g.$color-primary-2;
+            font-size: 1.25rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -709,7 +763,7 @@
         justify-content: center;
         text-align: center;
         strong {
-          font-size: 2rem;
+          font-size: 1.75rem;
           font-weight: bold;
         }
         span {
@@ -829,6 +883,15 @@
             flex-direction: column;
             justify-content: center;
             line-height: 14px;
+            span {
+              &:last-child {
+                font-size: 0.75rem;
+              }
+            }
+          }
+          &__C {
+            flex-direction: column;
+            gap: 8px;
             span {
               &:last-child {
                 font-size: 0.75rem;
@@ -1012,11 +1075,13 @@
           background-color: #DCEDF5;
           font-weight: bold;
           text-align: center;
+          height: 70px;
+          border-radius: 3px;
         }
         &:nth-of-type(2) {
           background-color: #F0F0F0;
           font-weight: normal;
-          line-height: 28px;
+          line-height: 22px;
           font-weight: 500;
           padding-left: 15px;
         }
@@ -1030,9 +1095,28 @@
           background-color: #DCEDF5!important;
           color: #000!important;
         }
+        &__padding {
+          padding: 5px 0;
+        }
         span {
           font-size: 0.75rem;
           font-weight: normal;
+          display: block;
+        }
+        &__supplyment {
+          line-height: 20px;
+          margin-top: 4px;
+          &:last-child {
+            line-height: 14px;
+          }
+          &:first-child {
+            line-height: normal;
+            margin-top: 4px;
+          }
+        }
+        &__cost__supplyment {
+          display: block;
+          margin-top: -5px;
         }
       }
       &__photograph__table {
@@ -1065,61 +1149,30 @@
     }
     &__btn {
       width: 100%;
-      height: 100px;
-      border-radius:  13.4px;
-      letter-spacing: 2px;
-      padding: 6px;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 15px;
       position: relative;
       &:first-child {
-        background-color: #fff;
-        border: 3px solid g.$color-primary;
-        box-shadow: inset -7px -7px 0px -2px g.$color-primary;
-        color: g.$color-primary;
         &.active {
-          background-color: #E6E9F3;
           &::after {
             content: '';
             position: absolute;
-            top: 140%;
+            top: 110%;
             border: 15px solid transparent;
             border-top: 25px solid g.$color-primary;
           }
         }
       }
       &:last-child {
-        background-color: #fff;
-        border: 3px solid g.$color-primary-2;
-        box-shadow: inset -7px -7px 0px -2px g.$color-primary-2;
-        color: g.$color-primary-2;
         &.active {
-          background-color: #DCEDF5;
           &::after {
             content: '';
             position: absolute;
-            top: 140%;
+            top: 110%;
             border: 15px solid transparent;
             border-top: 25px solid g.$color-primary-2;
           }
-        }
-      }
-      &__img {
-        img {
-          width: 80px;
-        }
-        &__2 {
-          img {
-            width: 60px;
-          }
-        }
-      }
-      &__text {
-        font-size: 1.5rem;
-        span {
-          font-weight: bold;
         }
       }
     }
@@ -1154,12 +1207,18 @@
               height: 47px;
             }
           }
+          &__final {
+            width: auto;
+            img {
+              width: 65px;
+            }
+          }
         }
         &__name {
           width: 100%;
           height: 300px;
           background-color: #fff;
-          border: 2px solid g.$color-primary;
+          border: 2px solid #000;
           border-top: 0;
           border-radius: 0 0 30px 30px;
           font-weight: bold;
@@ -1170,9 +1229,13 @@
           writing-mode: vertical-rl;
           &__primaryColor {
             color: g.$color-primary;
+            border: 2px solid g.$color-primary;
+            border-top: 0;
           }
           &__subColor {
             color: g.$color-primary-2;
+            border: 2px solid g.$color-primary-2;
+            border-top: 0;
           }
         }
       }
@@ -1205,48 +1268,9 @@
         padding-top: 20px;
         position: relative;
         &__heading {
-          align-items: center;
-          background-image: url(../images/deliver__flow__schedule__heading_bg.png);
-          background-repeat: no-repeat;
-          background-position-y: center;
-          display: flex;
-          background-size: auto 100%;
-          font-weight: 700;
-          padding: 10px;
-          justify-content: center;
-          gap: 5px;
+          width: 100px;
           position: absolute;
           left: -120px;
-          &__column {
-            width: 13%;
-            flex-direction: column;
-            align-items: start;
-            height: auto;
-            font-size: 0.875rem;
-            gap: 0;
-            padding: 5px;
-            padding-left: 5px;
-          }
-          &__flex {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-            &:last-child {
-              padding-left: 8px;
-            }
-          }
-          &__span__primaryColor {
-            background-color: g.$color-primary;
-            border-radius: 50%;
-            color: #fff;
-            padding: 4px 6px;
-          }
-          &__span__subColor {
-            background-color: g.$color-primary-2;
-            border-radius: 50%;
-            color: #fff;
-            padding: 4px 6px;
-          }
         }
         &__first {
           width: 50%;
@@ -1368,6 +1392,7 @@
   //キャンセルセクションのstylesheet
   &-cancel {
     padding: 70px 0;
+    padding-bottom: 140px;
     background-color: g.$color-bg;
     &__container {
       max-width: 1180px;
@@ -1388,11 +1413,12 @@
     }
     &__supplyment {
       line-height: 33px;
-      text-align: center;
       padding-top: 40px;
+      margin: 0 auto;
+      max-width: 1000px;
     }
     &-payment {
-      padding-top: 50px;
+      padding-top: 120px;
       &__content {
         display: flex;
         align-items: center;
@@ -1570,10 +1596,11 @@
         padding-top: 50px;
         &__img__yuki {
           position: relative;
+          width: 18%;
           &::after {
             content: "Yuki";
             position: absolute;
-            right: -20px;
+            right: -30px;
             top: 50%;
             font-size: 2rem;
             font-weight: bold;
@@ -1602,11 +1629,13 @@
         text-align: center;
         &__img {
           position: relative;
+          width: 70%;
+          margin: 0 auto;
           &::after {
             content: '';
             position: absolute;
             top: 50%;
-            right: -30px;
+            right: -50px;
             font-size: 1.875rem;
             font-weight: bold;
           }
@@ -1628,19 +1657,19 @@
           &__task {
             &::after {
               content: 'Task';
-              right: 20px;
+              right: -30px;
             }
           }
           &__machiko {
             &::after {
               content: 'Machiko';
-              right: -50px;
+              right: -70px;
             }
           }
           &__narumi {
             &::after {
               content: 'Narumi';
-              right: -50px;
+              right: -60px;
             }
           }
           &__yukiya {
@@ -1651,6 +1680,7 @@
           &__tommyK {
             &::after {
               content: 'Tommy K';
+              right: -70px;
             }
           }
           &__monin {
@@ -1664,10 +1694,11 @@
           h3 {
             font-size: 1.125rem;
             font-weight: bold;
+            white-space: nowrap;
           }
           p {
             font-size: 0.835rem;
-            line-height: 27px;
+            line-height: 22px;
             margin-top: 15px;
           }
         }
@@ -1684,7 +1715,8 @@
   //コンタクトセクションのstylesheet
   &-contact {
     &__container {
-      max-width: 1180px;
+      padding-top: 80px;
+      max-width: 1040px;
     }
     &__btns {
       width: 100%;
@@ -1796,7 +1828,7 @@
             width: 100%;
           }
           &__production {
-            width: 150px;
+            width: 200px;
           }
         }
         &__input {
@@ -2014,6 +2046,9 @@
                 border: 6px solid transparent;
                 border-top: 12px solid #CCCCCC;
               }
+              select {
+                text-align: justify;
+              }
             }
             &__prodNumber {
               width: 100px;
@@ -2065,6 +2100,7 @@
         align-items: center;
         justify-content: center;
         padding: 0 50px;
+        padding-bottom: 5px;
         margin-inline: auto;
         margin-top: 50px;
         &__subColor {

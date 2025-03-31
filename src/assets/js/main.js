@@ -65,7 +65,6 @@ $(function() {
         $(this).find('img').attr('src', originalSrc);
         $(this).removeClass('active');
     });
-
     // クリックされたボタンをアクティブにする
     var $img = $(this).find('img');
     var originalSrc = $img.attr('src');
@@ -86,6 +85,22 @@ $(function() {
     const target = $(this).data('target');
     $(target).addClass('open');
   });
+  $('.p-deliver__btn').on('click', function() {
+    // 全てのボタンを非アクティブに戻す
+    $('.p-deliver__btn').each(function() {
+        var originalSrc = $(this).find('img').attr('src').replace('_active', '');
+        $(this).find('img').attr('src', originalSrc);
+        $(this).removeClass('active');
+    });
+
+    // クリックされたボタンをアクティブにする
+    var $img = $(this).find('img');
+    var originalSrc = $img.attr('src');
+    var newSrc = originalSrc.replace('.png', '_active.png');
+    $img.attr('src', newSrc);
+    $(this).addClass('active');
+  });
+
 
   ////// qaセクションのアコーディオン機能 //////
   $('.p-qa__content__list__item').off('click').on('click', function() {
